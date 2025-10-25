@@ -168,7 +168,6 @@ export default {
 }
 
 .nav-link.router-link-active {
-  background-color: var(--color-rojo-andino);
   color: var(--color-blanco);
 }
 

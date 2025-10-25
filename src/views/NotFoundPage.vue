@@ -5,7 +5,7 @@
       <div class="error-content">
         <div class="error-visual">
           <div class="error-number">404</div>
-          <div class="error-icon">🏔️</div>
+          <div class="error-icon"><i class="bx bxs-error"></i></div>
         </div>
 
         <div class="error-message">
@@ -16,7 +16,9 @@
           </p>
 
           <div class="error-actions">
-            <router-link to="/" class="btn btn-primary"> 🏠 Volver al Inicio </router-link>
+            <router-link to="/" class="btn btn-primary">
+              <i class="bx bx-home-alt-2"></i> Volver al Inicio
+            </router-link>
             <button @click="goBack" class="btn btn-secondary">← Página Anterior</button>
           </div>
 
@@ -24,27 +26,27 @@
             <h3>¿Buscas algo específico?</h3>
             <div class="links-grid">
               <router-link to="/historia" class="help-link">
-                <span class="link-icon">📚</span>
+                <!-- <span class="link-icon">📚</span> -->
                 Historia y Cultura
               </router-link>
               <router-link to="/organizacion" class="help-link">
-                <span class="link-icon">👥</span>
+                <!-- <span class="link-icon">👥</span> -->
                 Organización
               </router-link>
               <router-link to="/noticias" class="help-link">
-                <span class="link-icon">📰</span>
+                <!-- <span class="link-icon">📰</span> -->
                 Noticias
               </router-link>
               <router-link to="/galeria" class="help-link">
-                <span class="link-icon">📸</span>
+                <!-- <span class="link-icon">📸</span> -->
                 Galería
               </router-link>
               <router-link to="/documentos" class="help-link">
-                <span class="link-icon">📄</span>
+                <!-- <span class="link-icon">📄</span> -->
                 Documentos
               </router-link>
               <router-link to="/contacto" class="help-link">
-                <span class="link-icon">📧</span>
+                <!-- <span class="link-icon">📧</span> -->
                 Contacto
               </router-link>
             </div>
