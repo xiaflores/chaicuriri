@@ -1,0 +1,333 @@
+{
+  "estructura_organizativa": {
+    "titulo": "Organigrama Comunal Chaicuriri",
+    "descripcion": "Estructura jerárquica de la organización comunal con sus respectivas autoridades y responsabilidades",
+    "fecha_actualizacion": "2024-12-10"
+  },
+  "maximas_autoridades": [
+    {
+      "id": 1,
+      "cargo": "Alcalde Comunal",
+      "nombre": "Juan Carlos Mamani Quispe",
+      "nivel": 1,
+      "foto": "/images/authorities/alcalde.jpg",
+      "periodo": "2024-2025",
+      "responsabilidades": [
+        "Máxima autoridad ejecutiva de la comunidad",
+        "Representación oficial ante instituciones externas",
+        "Coordinación general de proyectos y actividades",
+        "Presidir asambleas generales",
+        "Toma de decisiones estratégicas"
+      ],
+      "contacto": {
+        "telefono": "+591 78123456",
+        "email": "alcalde.chaicuriri@gmail.com"
+      }
+    },
+    {
+      "id": 2,
+      "cargo": "Corregidor",
+      "nombre": "Roberto Ticona Choque",
+      "nivel": 1,
+      "foto": "/images/authorities/corregidor.jpg",
+      "periodo": "2024-2025",
+      "responsabilidades": [
+        "Autoridad máxima en temas de justicia comunitaria",
+        "Resolución de conflictos internos",
+        "Aplicación del derecho consuetudinario",
+        "Coordinación con autoridades judiciales",
+        "Mantenimiento del orden y la paz social"
+      ],
+      "contacto": {
+        "telefono": "+591 78987654",
+        "email": "corregidor.chaicuriri@gmail.com"
+      }
+    }
+  ],
+  "subcentral": {
+    "nombre": "Subcentral Chaicuriri",
+    "nivel": 2,
+    "descripcion": "Instancia intermedia de organización que agrupa a los sindicatos de la comunidad",
+    "directorio": [
+      {
+        "id": 3,
+        "cargo": "Secretario General",
+        "nombre": "María Elena Quispe Condori",
+        "foto": "/images/authorities/secretario-general-subcentral.jpg",
+        "periodo": "2024-2025",
+        "responsabilidades": [
+          "Coordinación general de la subcentral",
+          "Convocatoria a reuniones y asambleas",
+          "Enlace entre sindicatos y autoridades comunales",
+          "Elaboración de informes y documentación"
+        ],
+        "contacto": {
+          "telefono": "+591 78234567"
+        }
+      },
+      {
+        "id": 4,
+        "cargo": "Secretario de Hacienda",
+        "nombre": "Carlos Roberto Choque Lima",
+        "foto": "/images/authorities/secretario-hacienda.jpg",
+        "periodo": "2024-2025",
+        "responsabilidades": [
+          "Administración de recursos económicos de la subcentral",
+          "Control de ingresos y gastos",
+          "Elaboración de presupuestos",
+          "Rendición de cuentas ante los sindicatos"
+        ],
+        "contacto": {
+          "telefono": "+591 78345678"
+        }
+      },
+      {
+        "id": 5,
+        "cargo": "Secretario de Actas",
+        "nombre": "Ana Luisa Condori Mamani",
+        "foto": "/images/authorities/secretario-actas.jpg",
+        "periodo": "2024-2025",
+        "responsabilidades": [
+          "Registro de reuniones y decisiones",
+          "Elaboración y custodia de actas",
+          "Archivo de documentos oficiales",
+          "Control de correspondencia"
+        ],
+        "contacto": {
+          "telefono": "+591 78456789"
+        }
+      },
+      {
+        "id": 6,
+        "cargo": "Secretario Organizacional",
+        "nombre": "Luis Fernando Mamani Ticona",
+        "foto": "/images/authorities/secretario-organizacional.jpg",
+        "periodo": "2024-2025",
+        "responsabilidades": [
+          "Coordinación de actividades organizativas",
+          "Planificación de eventos comunitarios",
+          "Articulación entre diferentes instancias",
+          "Seguimiento a acuerdos y resoluciones"
+        ],
+        "contacto": {
+          "telefono": "+591 78567890"
+        }
+      },
+      {
+        "id": 7,
+        "cargo": "Vocal",
+        "nombre": "Carmen Rosa Flores Quispe",
+        "foto": "/images/authorities/vocal-subcentral.jpg",
+        "periodo": "2024-2025",
+        "responsabilidades": [
+          "Apoyo a las actividades de la subcentral",
+          "Representación en comisiones especiales",
+          "Coordinación de temas específicos",
+          "Suplencia de otros directivos cuando sea necesario"
+        ],
+        "contacto": {
+          "telefono": "+591 78678901"
+        }
+      }
+    ]
+  },
+  "sindicatos": [
+    {
+      "id": 1,
+      "nombre": "Sindicato 1",
+      "nivel": 3,
+      "sector_geografico": "Sector Norte",
+      "numero_familias": 32,
+      "descripcion": "Agrupa a las familias del sector norte de la comunidad, zona principalmente agrícola",
+      "directorio": [
+        {
+          "cargo": "Secretario General",
+          "nombre": "Pedro Mamani Quispe",
+          "foto": "/images/authorities/secretario-sindicato1.jpg",
+          "responsabilidades": [
+            "Representación del sindicato ante la subcentral",
+            "Coordinación de actividades sectoriales",
+            "Convocatoria a reuniones del sindicato",
+            "Gestión de necesidades del sector norte"
+          ]
+        },
+        {
+          "cargo": "Secretario de Hacienda",
+          "nombre": "Juana Condori Mamani",
+          "responsabilidades": [
+            "Administración de fondos del sindicato",
+            "Cobro de cuotas y aportes",
+            "Control de gastos sectoriales"
+          ]
+        },
+        {
+          "cargo": "Secretario de Actas",
+          "nombre": "Miguel Quispe Choque",
+          "responsabilidades": [
+            "Registro de reuniones del sindicato",
+            "Documentación de acuerdos sectoriales",
+            "Archivo de documentos del sindicato"
+          ]
+        }
+      ],
+      "actividades_principales": [
+        "Agricultura de papa y quinua",
+        "Mantenimiento de canales de riego",
+        "Trabajos comunales de infraestructura",
+        "Participación en ferias locales"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Sindicato 2",
+      "nivel": 3,
+      "sector_geografico": "Sector Centro",
+      "numero_familias": 35,
+      "descripcion": "Comprende las familias del sector central, área administrativa y comercial de la comunidad",
+      "directorio": [
+        {
+          "cargo": "Secretario General",
+          "nombre": "Rosa Condori Lima",
+          "foto": "/images/authorities/secretario-sindicato2.jpg",
+          "responsabilidades": [
+            "Representación del sindicato ante la subcentral",
+            "Coordinación con autoridades comunales",
+            "Gestión de servicios básicos del centro",
+            "Organización de actividades comerciales"
+          ]
+        },
+        {
+          "cargo": "Secretario de Hacienda",
+          "nombre": "Alberto Lima Quispe",
+          "responsabilidades": [
+            "Manejo de fondos para servicios centrales",
+            "Coordinación de gastos comunes",
+            "Administración de mercado local"
+          ]
+        },
+        {
+          "cargo": "Secretario de Actas",
+          "nombre": "Elena Mamani Choque",
+          "responsabilidades": [
+            "Documentación de actividades centrales",
+            "Registro de visitantes institucionales",
+            "Archivo de documentos administrativos"
+          ]
+        }
+      ],
+      "actividades_principales": [
+        "Administración de servicios básicos",
+        "Actividades comerciales y mercado",
+        "Mantenimiento de infraestructura central",
+        "Coordinación de eventos comunitarios"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Sindicato 3",
+      "nivel": 3,
+      "sector_geografico": "Sector Sur",
+      "numero_familias": 28,
+      "descripcion": "Agrupa a las familias del sector sur, zona dedicada principalmente a la ganadería y actividades forestales",
+      "directorio": [
+        {
+          "cargo": "Secretario General",
+          "nombre": "Miguel Choque Condori",
+          "foto": "/images/authorities/secretario-sindicato3.jpg",
+          "responsabilidades": [
+            "Representación del sindicato ante la subcentral",
+            "Coordinación de actividades ganaderas",
+            "Gestión de pastizales comunitarios",
+            "Organización de trabajos forestales"
+          ]
+        },
+        {
+          "cargo": "Secretario de Hacienda",
+          "nombre": "Lucia Ticona Mamani",
+          "responsabilidades": [
+            "Administración de fondos ganaderos",
+            "Control de ventas de productos pecuarios",
+            "Gestión de compras colectivas"
+          ]
+        },
+        {
+          "cargo": "Secretario de Actas",
+          "nombre": "Francisco Choque Quispe",
+          "responsabilidades": [
+            "Registro de actividades ganaderas",
+            "Control de movimiento de ganado",
+            "Documentación de trabajos forestales"
+          ]
+        }
+      ],
+      "actividades_principales": [
+        "Crianza de llamas y alpacas",
+        "Manejo de pastizales naturales",
+        "Conservación de recursos forestales",
+        "Producción de derivados pecuarios"
+      ]
+    }
+  ],
+  "relaciones_jerarquicas": {
+    "descripcion": "Estructura de autoridad y coordinación entre los diferentes niveles organizativos",
+    "flujo_autoridad": [
+      {
+        "nivel": 1,
+        "instancia": "Máximas Autoridades",
+        "autoridades": ["Alcalde Comunal", "Corregidor"],
+        "alcance": "Toda la comunidad"
+      },
+      {
+        "nivel": 2,
+        "instancia": "Subcentral",
+        "directorio": 5,
+        "alcance": "Coordinación entre sindicatos"
+      },
+      {
+        "nivel": 3,
+        "instancia": "Sindicatos",
+        "cantidad": 3,
+        "alcance": "Sectores geográficos específicos"
+      }
+    ]
+  },
+  "sistema_eleccion": {
+    "modalidad": "Rotativa y por consenso",
+    "duracion_cargos": "1 año",
+    "renovacion": "Asamblea General de noviembre",
+    "requisitos_generales": [
+      "Ser comunario activo",
+      "Mayor de 21 años",
+      "Residir en la comunidad",
+      "No tener antecedentes disciplinarios",
+      "Conocimiento del idioma quechua",
+      "Experiencia en trabajos comunitarios"
+    ],
+    "proceso_eleccion": [
+      "Convocatoria a Asamblea General",
+      "Propuesta de candidatos por sectores",
+      "Evaluación de requisitos y capacidades",
+      "Votación por consenso",
+      "Posesión de cargos en enero"
+    ]
+  },
+  "coordinacion_intersectorial": {
+    "reuniones_regulares": {
+      "maximas_autoridades": "Semanal",
+      "subcentral": "Quincenal",
+      "sindicatos": "Mensual"
+    },
+    "asamblea_general": {
+      "frecuencia": "Mensual",
+      "participantes": "Todas las instancias",
+      "toma_decisiones": "Por consenso y mayoría"
+    },
+    "comisiones_trabajo": [
+      "Desarrollo Productivo",
+      "Infraestructura",
+      "Educación y Cultura",
+      "Salud y Bienestar",
+      "Medio Ambiente"
+    ]
+  }
+}

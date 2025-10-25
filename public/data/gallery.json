@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "titulo": "Fiesta Patronal San Pedro 2024",
+    "categoria": "celebraciones",
+    "imagen": "/images/gallery/fiesta-2024.jpg",
+    "descripcion": "Celebración de nuestra fiesta patronal con danzas tradicionales y gran participación comunitaria. Más de 200 personas participaron en esta hermosa festividad.",
+    "fecha": "2024-06-29",
+    "fotografo": "Carlos Mamani",
+    "ubicacion": "Plaza Principal",
+    "tags": ["fiesta", "san pedro", "danzas", "tradición"]
+  },
+  {
+    "id": 2,
+    "titulo": "Trabajo Comunitario - Cosecha de Papa",
+    "categoria": "trabajos",
+    "imagen": "/images/gallery/cosecha-papa.jpg",
+    "descripcion": "Ayni comunitario para la cosecha de papa, manteniendo vivas nuestras tradiciones de reciprocidad y trabajo conjunto.",
+    "fecha": "2024-04-15",
+    "fotografo": "María Condori",
+    "ubicacion": "Terrenos agrícolas Sector Norte",
+    "tags": ["ayni", "cosecha", "papa", "trabajo comunitario"]
+  },
+  {
+    "id": 3,
+    "titulo": "Paisajes de Chaicuriri - Amanecer Andino",
+    "categoria": "paisajes",
+    "imagen": "/images/gallery/amanecer-andino.jpg",
+    "descripcion": "Hermoso amanecer en nuestras tierras altas, mostrando la majestuosidad del altiplano y la belleza de nuestro territorio ancestral.",
+    "fecha": "2024-05-20",
+    "fotografo": "Pedro Quispe",
+    "ubicacion": "Cerro Chaicuriri",
+    "tags": ["paisaje", "amanecer", "montañas", "naturaleza"]
+  },
+  {
+    "id": 4,
+    "titulo": "Año Nuevo Andino - Ritual de la Pachamama",
+    "categoria": "celebraciones",
+    "imagen": "/images/gallery/año-nuevo-andino.jpg",
+    "descripcion": "Ceremonia ancestral de agradecimiento a la Pachamama en el solsticio de invierno, renovando nuestras energías para el nuevo ciclo.",
+    "fecha": "2024-06-21",
+    "fotografo": "Ana Ticona",
+    "ubicacion": "Lugar sagrado - Apacheta",
+    "tags": ["año nuevo andino", "pachamama", "ritual", "ceremonia"]
+  },
+  {
+    "id": 5,
+    "titulo": "Construcción del Salón Comunal",
+    "categoria": "trabajos",
+    "imagen": "/images/gallery/salon-comunal.jpg",
+    "descripcion": "Trabajo mancomunado para la construcción de nuestro nuevo salón de reuniones, ejemplo de la unidad y fuerza de nuestra comunidad.",
+    "fecha": "2024-08-10",
+    "fotografo": "Luis Choque",
+    "ubicacion": "Centro de la comunidad",
+    "tags": ["construcción", "salón comunal", "trabajo conjunto", "infraestructura"]
+  },
+  {
+    "id": 6,
+    "titulo": "Taller de Textiles Tradicionales",
+    "categoria": "trabajos",
+    "imagen": "/images/gallery/taller-textiles.jpg",
+    "descripcion": "Mujeres jóvenes aprendiendo las técnicas ancestrales de tejido, preservando nuestro patrimonio cultural inmaterial.",
+    "fecha": "2024-09-15",
+    "fotografo": "Carmen Quispe",
+    "ubicacion": "Casa comunal",
+    "tags": ["textiles", "tejido", "mujeres", "tradición", "cultura"]
+  },
+  {
+    "id": 7,
+    "titulo": "Vista Panorámica de la Comunidad",
+    "categoria": "paisajes",
+    "imagen": "/images/gallery/vista-panoramica.jpg",
+    "descripcion": "Vista general de nuestra querida comunidad desde las alturas, mostrando la distribución de viviendas y cultivos.",
+    "fecha": "2024-03-12",
+    "fotografo": "Roberto Lima",
+    "ubicacion": "Mirador natural",
+    "tags": ["panorámica", "comunidad", "vista aérea", "territorio"]
+  },
+  {
+    "id": 8,
+    "titulo": "Carnaval Andino 2024",
+    "categoria": "celebraciones",
+    "imagen": "/images/gallery/carnaval-2024.jpg",
+    "descripcion": "Colorida celebración del carnaval con comparsas, música tradicional y la alegría característica de nuestras fiestas.",
+    "fecha": "2024-02-18",
+    "fotografo": "Marco Condori",
+    "ubicacion": "Calles principales",
+    "tags": ["carnaval", "comparsas", "música", "alegría"]
+  },
+  {
+    "id": 9,
+    "titulo": "Ganado en Pastoreo - Sector Sur",
+    "categoria": "trabajos",
+    "imagen": "/images/gallery/ganado-pastoreo.jpg",
+    "descripcion": "Llamas y alpacas pastando en los campos del sector sur, actividad tradicional fundamental para nuestra economía.",
+    "fecha": "2024-07-08",
+    "fotografo": "Miguel Choque",
+    "ubicacion": "Sector Sur - Pastizales",
+    "tags": ["ganadería", "llamas", "alpacas", "pastoreo"]
+  },
+  {
+    "id": 10,
+    "titulo": "Laguna Chaicuriri al Atardecer",
+    "categoria": "paisajes",
+    "imagen": "/images/gallery/laguna-atardecer.jpg",
+    "descripcion": "Nuestra laguna sagrada durante un hermoso atardecer, lugar de ceremonias ancestrales y fuente de vida para la comunidad.",
+    "fecha": "2024-10-05",
+    "fotografo": "Elena Mamani",
+    "ubicacion": "Laguna Chaicuriri",
+    "tags": ["laguna", "atardecer", "agua", "sagrado"]
+  },
+  {
+    "id": 11,
+    "titulo": "Inauguración Sistema de Agua Potable",
+    "categoria": "trabajos",
+    "imagen": "/images/gallery/agua-potable.jpg",
+    "descripcion": "Momento histórico de la inauguración del nuevo sistema de agua potable, mejorando la calidad de vida de todas las familias.",
+    "fecha": "2024-10-15",
+    "fotografo": "Secretaria General",
+    "ubicacion": "Tanques de agua",
+    "tags": ["agua potable", "inauguración", "desarrollo", "servicios básicos"]
+  },
+  {
+    "id": 12,
+    "titulo": "Cultivos de Quinua en Floración",
+    "categoria": "trabajos",
+    "imagen": "/images/gallery/quinua-floracion.jpg",
+    "descripcion": "Hermosos campos de quinua en plena floración, mostrando uno de nuestros principales cultivos tradicionales.",
+    "fecha": "2024-01-20",
+    "fotografo": "Lucia Ticona",
+    "ubicacion": "Campos de cultivo",
+    "tags": ["quinua", "agricultura", "cultivos", "floración"]
+  },
+  {
+    "id": 13,
+    "titulo": "Encuentro de Medicina Tradicional",
+    "categoria": "celebraciones",
+    "imagen": "/images/gallery/medicina-tradicional.jpg",
+    "descripcion": "Segundo encuentro de medicina tradicional con la participación de curanderos y conocedores de plantas medicinales.",
+    "fecha": "2024-06-18",
+    "fotografo": "Vocal de Salud",
+    "ubicacion": "Centro de salud",
+    "tags": ["medicina tradicional", "curanderos", "plantas medicinales", "encuentro"]
+  },
+  {
+    "id": 14,
+    "titulo": "Asamblea General Comunitaria",
+    "categoria": "trabajos",
+    "imagen": "/images/gallery/asamblea-general.jpg",
+    "descripcion": "Asamblea general donde se toman las decisiones importantes para el desarrollo y bienestar de nuestra comunidad.",
+    "fecha": "2024-11-03",
+    "fotografo": "Carlos Mamani",
+    "ubicacion": "Salón comunal",
+    "tags": ["asamblea", "participación", "democracia", "decisiones"]
+  },
+  {
+    "id": 15,
+    "titulo": "Nevados de la Cordillera Occidental",
+    "categoria": "paisajes",
+    "imagen": "/images/gallery/nevados-cordillera.jpg",
+    "descripcion": "Imponente vista de los nevados de la Cordillera Occidental que rodean nuestro territorio, guardianes ancestrales.",
+    "fecha": "2024-08-30",
+    "fotografo": "Pedro Quispe",
+    "ubicacion": "Mirador Este",
+    "tags": ["nevados", "cordillera", "montañas", "paisaje"]
+  },
+  {
+    "id": 16,
+    "titulo": "Niños en Actividades Escolares",
+    "categoria": "trabajos",
+    "imagen": "/images/gallery/ninos-escuela.jpg",
+    "descripcion": "Nuestros niños participando en actividades educativas, representando el futuro y la continuidad de nuestra comunidad.",
+    "fecha": "2024-09-12",
+    "fotografo": "Vocal de Educación",
+    "ubicacion": "Unidad educativa",
+    "tags": ["educación", "niños", "escuela", "futuro"]
+  }
+]

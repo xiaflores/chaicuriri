@@ -1,0 +1,37 @@
+{
+  "banner": {
+    "imagen": "/images/community/banner-chaicuriri.jpg",
+    "titulo": "Bienvenidos a Chaicuriri",
+    "subtitulo": "Comunidad Originaria Rural Andina"
+  },
+  "mensaje_bienvenida": {
+    "autoridad": "Gualberto Flores Ledezma",
+    "cargo": "Alcalde Comunal",
+    "foto": "/images/community/alcalde.jpg",
+    "mensaje": "En nombre de toda la comunidad de Chaicuriri, les damos la más cordial bienvenida a nuestro espacio digital. Aquí podrán conocer nuestra historia, nuestra cultura y mantenerse informados sobre las actividades de nuestra comunidad.",
+    "fecha_mensaje": "2025-07-13"
+  },
+  "eventos_proximos": [
+    {
+      "id": 1,
+      "titulo": "Asamblea Comunal",
+      "fecha": "2024-12-15",
+      "descripcion": "Planificación actividades 2025",
+      "lugar": "Salón Comunal"
+    },
+    {
+      "id": 2,
+      "titulo": "Año Nuevo Andino",
+      "fecha": "2025-06-21",
+      "descripcion": "Celebración tradicional del solsticio",
+      "lugar": "Centro de la comunidad"
+    },
+    {
+      "id": 3,
+      "titulo": "Fiesta Patronal",
+      "fecha": "2025-06-29",
+      "descripcion": "San Pedro - Celebración anual",
+      "lugar": "Plaza principal"
+    }
+  ]
+}

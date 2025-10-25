@@ -1,0 +1,183 @@
+{
+  "estructura_titulo": "Organización Comunal de Chaicuriri",
+  "autoridades": [
+    {
+      "id": 1,
+      "nombre": "Gualberto Flores Ledezma",
+      "cargo": "Alcalde Comunal",
+      "foto": "/images/authorities/alcalde.jpg",
+      "descripcion": "Representa a la comunidad ante autoridades externas y coordina las actividades principales",
+      "periodo": "2025-2026",
+      "telefono": "+591 71189551",
+      "responsabilidades": [
+        "Representación legal de la comunidad",
+        "Coordinación con instituciones externas",
+        "Presidir asambleas comunales",
+        "Gestión de proyectos de desarrollo"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Eulogio Ramirez Perez",
+      "cargo": "Corregidor comunal",
+      "foto": "/images/authorities/secretaria.jpg",
+      "descripcion": "Responsable de la documentación y comunicaciones oficiales",
+      "periodo": "2025-2026",
+      "responsabilidades": [
+        "Elaboración de actas y documentos",
+        "Archivo y custodia documental",
+        "Comunicaciones oficiales",
+        "Certificaciones comunales"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Gualberto Choque Ramirez",
+      "cargo": "Comisario 1",
+      "foto": "/images/authorities/tesorero.jpg",
+      "descripcion": "Administra los recursos económicos y financieros de la comunidad",
+      "periodo": "2024-2025",
+      "responsabilidades": [
+        "Manejo de fondos comunales",
+        "Elaboración de presupuestos",
+        "Rendición de cuentas",
+        "Gestión de proyectos financieros"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Olimpia Choque Mamani",
+      "cargo": "Vocal de Educación",
+      "foto": "/images/authorities/vocal-educacion.jpg",
+      "descripcion": "Supervisa temas educativos y culturales de la comunidad",
+      "periodo": "2024-2025",
+      "responsabilidades": [
+        "Coordinación con unidades educativas",
+        "Promoción de actividades culturales",
+        "Gestión de becas estudiantiles",
+        "Alfabetización de adultos"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "",
+      "cargo": "Comisario",
+      "foto": "/images/authorities/vocal-salud.jpg",
+      "descripcion": "Coordina temas de salud comunitaria y medicina tradicional",
+      "periodo": "2024-2025",
+      "responsabilidades": [
+        "Coordinación con centros de salud",
+        "Promoción de medicina tradicional",
+        "Campañas de prevención",
+        "Atención de emergencias"
+      ]
+    }
+  ],
+  "estructura": {
+    "subcentral": "Chaicuriri",
+    "sectores": [
+      {
+        "nombre": "Sector Norte",
+        "familias": 32,
+        "responsable": "Pedro Mamani Quispe",
+        "caracteristicas": "Zona agrícola principal, cultivos de papa y quinua"
+      },
+      {
+        "nombre": "Sector Centro",
+        "familias": 35,
+        "responsable": "Rosa Condori Lima",
+        "caracteristicas": "Centro administrativo, salón comunal, escuela"
+      },
+      {
+        "nombre": "Sector Sur",
+        "familias": 28,
+        "responsable": "Miguel Choque Condori",
+        "caracteristicas": "Zona ganadera, crianza de llamas y ovejas"
+      }
+    ]
+  },
+  "comites": [
+    {
+      "nombre": "Comité de Agua Potable",
+      "responsable": "Javier Quispe Mamani",
+      "funcion": "Administración y mantenimiento del sistema de agua",
+      "miembros": 5,
+      "actividades": [
+        "Mantenimiento de tanques",
+        "Distribución equitativa",
+        "Cobro de tarifas",
+        "Reparaciones menores"
+      ]
+    },
+    {
+      "nombre": "Comité de Educación",
+      "responsable": "Elena Condori Choque",
+      "funcion": "Apoyo y seguimiento a la educación escolar",
+      "miembros": 7,
+      "actividades": [
+        "Apoyo a maestros",
+        "Mantenimiento de aulas",
+        "Gestión de material educativo",
+        "Actividades extracurriculares"
+      ]
+    },
+    {
+      "nombre": "Comité de Salud",
+      "responsable": "Roberto Lima Quispe",
+      "funcion": "Coordinación con servicios de salud y prevención",
+      "miembros": 4,
+      "actividades": [
+        "Coordinación con posta sanitaria",
+        "Campañas de vacunación",
+        "Medicina tradicional",
+        "Primeros auxilios"
+      ]
+    },
+    {
+      "nombre": "Comité de Deportes",
+      "responsable": "Luis Condori Mamani",
+      "funcion": "Organización de actividades deportivas y recreativas",
+      "miembros": 6,
+      "actividades": [
+        "Torneos de fútbol",
+        "Juegos tradicionales",
+        "Mantenimiento de cancha",
+        "Eventos deportivos intercomunales"
+      ]
+    }
+  ],
+  "sistema_gobierno": {
+    "tipo": "Democracia participativa comunitaria",
+    "elecciones": "Cada 2 años en asamblea general",
+    "requisitos_candidatos": [
+      "Residir en la comunidad mínimo 5 años",
+      "Mayor de 25 años",
+      "Participación activa en trabajos comunales",
+      "Propuesta de trabajo clara"
+    ],
+    "proceso_electoral": {
+      "convocatoria": "60 días antes de elecciones",
+      "inscripcion_candidatos": "30 días antes",
+      "campana": "15 días",
+      "votacion": "Voto secreto en asamblea",
+      "posesion": "Inmediata tras resultados"
+    }
+  },
+  "reglamentos": [
+    {
+      "nombre": "Reglamento de Asambleas",
+      "descripcion": "Normas para la realización de asambleas comunales",
+      "vigencia": "2024-2026"
+    },
+    {
+      "nombre": "Reglamento de Trabajos Comunales",
+      "descripcion": "Obligaciones y derechos en trabajos comunitarios",
+      "vigencia": "2023-2025"
+    },
+    {
+      "nombre": "Reglamento de Uso de Recursos",
+      "descripcion": "Normas para el uso sostenible de recursos naturales",
+      "vigencia": "2024-2027"
+    }
+  ]
+}
