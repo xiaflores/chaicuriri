@@ -11,7 +11,7 @@
       <section class="organigrama-visual">
         <div class="organigrama-container">
           <!-- Nivel 1: Máximas Autoridades -->
-          <!-- <div class="nivel nivel-1">
+          <div class="nivel nivel-1">
             <h3 class="nivel-title">Máximas Autoridades</h3>
             <div class="autoridades-maximas">
               <div
@@ -30,13 +30,13 @@
                 <div class="connection-line down"></div>
               </div>
             </div>
-          </div> -->
+          </div>
 
           <!-- Línea de conexión -->
           <div class="connection-horizontal"></div>
 
           <!-- Nivel 2: Subcentral -->
-          <!-- <div class="nivel nivel-2">
+          <div class="nivel nivel-2">
             <h3 class="nivel-title">{{ organigramaData.subcentral?.nombre }}</h3>
             <div class="subcentral-container">
               <div class="subcentral-directorio">
@@ -57,13 +57,13 @@
               </div>
               <div class="connection-line down from-center"></div>
             </div>
-          </div> -->
+          </div>
 
           <!-- Línea de conexión -->
           <div class="connection-horizontal-multi"></div>
 
           <!-- Nivel 3: Sindicatos -->
-          <!-- <div class="nivel nivel-3">
+          <div class="nivel nivel-3">
             <h3 class="nivel-title">Sindicatos</h3>
             <div class="sindicatos-container">
               <div
@@ -93,7 +93,7 @@
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </section>
 

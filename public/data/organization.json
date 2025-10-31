@@ -18,16 +18,16 @@
     },
     {
       "id": 2,
-      "nombre": "Eulogio Ramirez Perez",
+      "nombre": "Eloy Ramirez Perez",
       "cargo": "Corregidor comunal",
       "foto": "/images/authorities/secretaria.jpg",
       "descripcion": "Responsable de la documentación y comunicaciones oficiales",
       "periodo": "2025-2026",
+      "telefono": "+591 71189551",
       "responsabilidades": [
         "Elaboración de actas y documentos",
         "Archivo y custodia documental",
-        "Comunicaciones oficiales",
-        "Certificaciones comunales"
+        "Comunicaciones oficiales"
       ]
     },
     {
@@ -37,26 +37,16 @@
       "foto": "/images/authorities/tesorero.jpg",
       "descripcion": "Administra los recursos económicos y financieros de la comunidad",
       "periodo": "2024-2025",
-      "responsabilidades": [
-        "Manejo de fondos comunales",
-        "Elaboración de presupuestos",
-        "Rendición de cuentas",
-        "Gestión de proyectos financieros"
-      ]
+      "responsabilidades": ["colaborador del corregidor comunal"]
     },
     {
       "id": 4,
-      "nombre": "Olimpia Choque Mamani",
+      "nombre": "Olimpia Choque Ticona",
       "cargo": "Vocal de Educación",
       "foto": "/images/authorities/vocal-educacion.jpg",
       "descripcion": "Supervisa temas educativos y culturales de la comunidad",
       "periodo": "2024-2025",
-      "responsabilidades": [
-        "Coordinación con unidades educativas",
-        "Promoción de actividades culturales",
-        "Gestión de becas estudiantiles",
-        "Alfabetización de adultos"
-      ]
+      "responsabilidades": ["colaborador del corregidor comunal"]
     },
     {
       "id": 5,
@@ -65,12 +55,7 @@
       "foto": "/images/authorities/vocal-salud.jpg",
       "descripcion": "Coordina temas de salud comunitaria y medicina tradicional",
       "periodo": "2024-2025",
-      "responsabilidades": [
-        "Coordinación con centros de salud",
-        "Promoción de medicina tradicional",
-        "Campañas de prevención",
-        "Atención de emergencias"
-      ]
+      "responsabilidades": ["colaborador del corregidor comunal"]
     }
   ],
   "estructura": {

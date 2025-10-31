@@ -167,12 +167,15 @@
               <div class="widget-content">
                 <div class="event-item">
                   <div class="event-date">
-                    <span class="day">25</span>
-                    <span class="month">OCT</span>
+                    <span class="day">10</span>
+                    <span class="month">NOV</span>
                   </div>
                   <div class="event-info">
-                    <h4>Kurpeo para cultivos</h4>
-                    <p>Arado de nuestros parcelas para el cultivos de alimentos</p>
+                    <h4>Aniversario del municipio de Caripuyo</h4>
+                    <p>
+                      Actividades programadas en conmemoración del aniversario LXXXVII del municipio
+                      de Caripuyo.
+                    </p>
                   </div>
                 </div>
               </div>

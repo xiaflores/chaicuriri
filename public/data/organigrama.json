@@ -8,7 +8,7 @@
     {
       "id": 1,
       "cargo": "Alcalde Comunal",
-      "nombre": "Juan Carlos Mamani Quispe",
+      "nombre": "Gualberto Flores Ledezma",
       "nivel": 1,
       "foto": "/images/authorities/alcalde.jpg",
       "periodo": "2024-2025",
@@ -27,7 +27,7 @@
     {
       "id": 2,
       "cargo": "Corregidor",
-      "nombre": "Roberto Ticona Choque",
+      "nombre": "Eloy Ramirez Perez",
       "nivel": 1,
       "foto": "/images/authorities/corregidor.jpg",
       "periodo": "2024-2025",
@@ -52,9 +52,9 @@
       {
         "id": 3,
         "cargo": "Secretario General",
-        "nombre": "María Elena Quispe Condori",
+        "nombre": "Salomon Perez Tola",
         "foto": "/images/authorities/secretario-general-subcentral.jpg",
-        "periodo": "2024-2025",
+        "periodo": "2025-2027",
         "responsabilidades": [
           "Coordinación general de la subcentral",
           "Convocatoria a reuniones y asambleas",
@@ -62,15 +62,15 @@
           "Elaboración de informes y documentación"
         ],
         "contacto": {
-          "telefono": "+591 78234567"
+          "telefono": "+591 67143776"
         }
       },
       {
         "id": 4,
-        "cargo": "Secretario de Hacienda",
-        "nombre": "Carlos Roberto Choque Lima",
+        "cargo": "Secretario de Actas",
+        "nombre": "Juvenal Flores Rodriguez",
         "foto": "/images/authorities/secretario-hacienda.jpg",
-        "periodo": "2024-2025",
+        "periodo": "2025-2027",
         "responsabilidades": [
           "Administración de recursos económicos de la subcentral",
           "Control de ingresos y gastos",
@@ -83,10 +83,10 @@
       },
       {
         "id": 5,
-        "cargo": "Secretario de Actas",
-        "nombre": "Ana Luisa Condori Mamani",
+        "cargo": "Secretario de Organizacion",
+        "nombre": "Benancio Soliz Tola",
         "foto": "/images/authorities/secretario-actas.jpg",
-        "periodo": "2024-2025",
+        "periodo": "2025-2027",
         "responsabilidades": [
           "Registro de reuniones y decisiones",
           "Elaboración y custodia de actas",
@@ -99,10 +99,10 @@
       },
       {
         "id": 6,
-        "cargo": "Secretario Organizacional",
-        "nombre": "Luis Fernando Mamani Ticona",
+        "cargo": "Secretario de Deportes",
+        "nombre": "Richar Ancalle Berrios",
         "foto": "/images/authorities/secretario-organizacional.jpg",
-        "periodo": "2024-2025",
+        "periodo": "2025-2027",
         "responsabilidades": [
           "Coordinación de actividades organizativas",
           "Planificación de eventos comunitarios",
@@ -112,52 +112,25 @@
         "contacto": {
           "telefono": "+591 78567890"
         }
-      },
-      {
-        "id": 7,
-        "cargo": "Vocal",
-        "nombre": "Carmen Rosa Flores Quispe",
-        "foto": "/images/authorities/vocal-subcentral.jpg",
-        "periodo": "2024-2025",
-        "responsabilidades": [
-          "Apoyo a las actividades de la subcentral",
-          "Representación en comisiones especiales",
-          "Coordinación de temas específicos",
-          "Suplencia de otros directivos cuando sea necesario"
-        ],
-        "contacto": {
-          "telefono": "+591 78678901"
-        }
       }
     ]
   },
   "sindicatos": [
     {
       "id": 1,
-      "nombre": "Sindicato 1",
+      "nombre": "Sindicato Villa 21 de septiembre",
       "nivel": 3,
-      "sector_geografico": "Sector Norte",
-      "numero_familias": 32,
       "descripcion": "Agrupa a las familias del sector norte de la comunidad, zona principalmente agrícola",
       "directorio": [
         {
           "cargo": "Secretario General",
-          "nombre": "Pedro Mamani Quispe",
+          "nombre": "Alvino Flores Tola",
           "foto": "/images/authorities/secretario-sindicato1.jpg",
           "responsabilidades": [
             "Representación del sindicato ante la subcentral",
             "Coordinación de actividades sectoriales",
             "Convocatoria a reuniones del sindicato",
             "Gestión de necesidades del sector norte"
-          ]
-        },
-        {
-          "cargo": "Secretario de Hacienda",
-          "nombre": "Juana Condori Mamani",
-          "responsabilidades": [
-            "Administración de fondos del sindicato",
-            "Cobro de cuotas y aportes",
-            "Control de gastos sectoriales"
           ]
         },
         {
@@ -179,30 +152,19 @@
     },
     {
       "id": 2,
-      "nombre": "Sindicato 2",
+      "nombre": "Sindicato Chaicuriri",
       "nivel": 3,
-      "sector_geografico": "Sector Centro",
-      "numero_familias": 35,
       "descripcion": "Comprende las familias del sector central, área administrativa y comercial de la comunidad",
       "directorio": [
         {
           "cargo": "Secretario General",
-          "nombre": "Rosa Condori Lima",
+          "nombre": "",
           "foto": "/images/authorities/secretario-sindicato2.jpg",
           "responsabilidades": [
             "Representación del sindicato ante la subcentral",
             "Coordinación con autoridades comunales",
             "Gestión de servicios básicos del centro",
             "Organización de actividades comerciales"
-          ]
-        },
-        {
-          "cargo": "Secretario de Hacienda",
-          "nombre": "Alberto Lima Quispe",
-          "responsabilidades": [
-            "Manejo de fondos para servicios centrales",
-            "Coordinación de gastos comunes",
-            "Administración de mercado local"
           ]
         },
         {
@@ -224,15 +186,13 @@
     },
     {
       "id": 3,
-      "nombre": "Sindicato 3",
+      "nombre": "Sindicato Iruputunku",
       "nivel": 3,
-      "sector_geografico": "Sector Sur",
-      "numero_familias": 28,
       "descripcion": "Agrupa a las familias del sector sur, zona dedicada principalmente a la ganadería y actividades forestales",
       "directorio": [
         {
           "cargo": "Secretario General",
-          "nombre": "Miguel Choque Condori",
+          "nombre": "Benedicito Ramirez",
           "foto": "/images/authorities/secretario-sindicato3.jpg",
           "responsabilidades": [
             "Representación del sindicato ante la subcentral",
@@ -248,15 +208,6 @@
             "Administración de fondos ganaderos",
             "Control de ventas de productos pecuarios",
             "Gestión de compras colectivas"
-          ]
-        },
-        {
-          "cargo": "Secretario de Actas",
-          "nombre": "Francisco Choque Quispe",
-          "responsabilidades": [
-            "Registro de actividades ganaderas",
-            "Control de movimiento de ganado",
-            "Documentación de trabajos forestales"
           ]
         }
       ],
