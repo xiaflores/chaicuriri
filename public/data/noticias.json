@@ -1,5 +1,15 @@
 [
   {
+    "id": 3,
+    "titulo": "Comunicado",
+    "categoria": "comunicado",
+    "fecha": "2025-11-01",
+    "descripcion": "Comunicado para el registro agrario y amurallamiento de los cultivos de la comunidad de Chaicuriri.",
+    "estado": "vigente",
+    "imagen": "/images/archivo/comunicado-minka.jpg",
+    "institucion_destino": "Chaicuriri"
+  },
+  {
     "id": 2,
     "titulo": "Aniversario del Municipio de Caripuyo",
     "categoria": "eventos",

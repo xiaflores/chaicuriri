@@ -4,7 +4,6 @@
     <div class="container">
       <div class="page-header">
         <h1 class="page-title">Noticias y Comunicados</h1>
-        <p class="page-subtitle">Mantente informado sobre las actividades de la comunidad</p>
       </div>
 
       <!-- Filtros -->
@@ -17,8 +16,7 @@
               <option value="">Todas las categorías</option>
               <option value="Convocatoria">Convocatorias</option>
               <option value="Evento">Eventos</option>
-              <option value="Desarrollo">Desarrollo</option>
-              <option value="Infraestructura">Infraestructura</option>
+              <option value="Comunicado">Comunicadoh</option>
               <option value="solicitudes">Solicitudes</option>
             </select>
           </div>

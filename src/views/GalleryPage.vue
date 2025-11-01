@@ -4,7 +4,6 @@
     <div class="container">
       <div class="page-header">
         <h1 class="page-title">Galería Fotográfica</h1>
-        <p class="page-subtitle">Momentos especiales de nuestra comunidad</p>
       </div>
 
       <!-- Filtros por categoría -->
@@ -45,7 +44,7 @@
       </div>
 
       <!-- Galería de imágenes -->
-      <!-- <div class="gallery-section">
+      <div class="gallery-section">
         <div class="gallery-grid">
           <div
             v-for="item in filteredGallery"
@@ -84,10 +83,10 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <!-- Modal para vista detallada -->
-      <!-- <div v-if="selectedImage" class="modal-overlay" @click="closeModal">
+      <div v-if="selectedImage" class="modal-overlay" @click="closeModal">
         <div class="modal-content" @click.stop>
           <button class="modal-close" @click="closeModal">✕</button>
           <div class="modal-image">
@@ -109,7 +108,7 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <!-- Estadísticas -->
       <!-- <div class="stats-section">
@@ -212,7 +211,7 @@ export default {
 
 .page-header {
   text-align: center;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-sm);
 }
 
 .page-title {
@@ -229,12 +228,12 @@ export default {
 }
 
 .filters-section {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
 }
 
 .filters-card {
   background: var(--color-blanco);
-  padding: var(--spacing-lg);
+  padding: var(--spacing-sm);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-light);
   text-align: center;
@@ -253,7 +252,7 @@ export default {
 }
 
 .filter-btn {
-  padding: var(--spacing-sm) var(--spacing-md);
+  padding: var(--spacing-xs) var(--spacing-sm);
   border: 2px solid var(--color-gris);
   background: var(--color-blanco);
   color: var(--color-oscuro);

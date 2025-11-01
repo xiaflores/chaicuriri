@@ -33,12 +33,6 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/organizacion" class="dropdown-link" @click="closeMobileMenu">
-                  <!-- <span class="dropdown-icon">👥</span> -->
-                  Organización
-                </router-link>
-              </li>
-              <li>
                 <router-link to="/organigrama" class="dropdown-link" @click="closeMobileMenu">
                   <!-- <span class="dropdown-icon">📊</span> -->
                   Organigrama
@@ -249,7 +243,7 @@ export default {
 .dropdown-link:hover {
   background-color: var(--color-verde-andino);
   color: var(--color-blanco);
-  transform: translateX(5px);
+  /* transform: translateX(5px); */
 }
 
 .dropdown-link.router-link-active {

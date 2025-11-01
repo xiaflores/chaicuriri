@@ -3,8 +3,7 @@
   <div class="organigrama-page">
     <div class="container">
       <div class="page-header">
-        <h1 class="page-title">Organigrama Comunal</h1>
-        <p class="page-subtitle">Estructura organizativa de la Comunidad Chaicuriri</p>
+        <h1 class="page-title">Autoridades de la comunidad</h1>
       </div>
 
       <!-- Organigrama Visual -->
@@ -12,7 +11,7 @@
         <div class="organigrama-container">
           <!-- Nivel 1: Máximas Autoridades -->
           <div class="nivel nivel-1">
-            <h3 class="nivel-title">Máximas Autoridades</h3>
+            <h3 class="nivel-title">Autoridades comunales</h3>
             <div class="autoridades-maximas">
               <div
                 v-for="autoridad in organigramaData.maximas_autoridades"
@@ -27,13 +26,9 @@
                   <h4>{{ autoridad.cargo }}</h4>
                   <p>{{ autoridad.nombre }}</p>
                 </div>
-                <div class="connection-line down"></div>
               </div>
             </div>
           </div>
-
-          <!-- Línea de conexión -->
-          <div class="connection-horizontal"></div>
 
           <!-- Nivel 2: Subcentral -->
           <div class="nivel nivel-2">
@@ -55,13 +50,8 @@
                   </div>
                 </div>
               </div>
-              <div class="connection-line down from-center"></div>
             </div>
           </div>
-
-          <!-- Línea de conexión -->
-          <div class="connection-horizontal-multi"></div>
-
           <!-- Nivel 3: Sindicatos -->
           <div class="nivel nivel-3">
             <h3 class="nivel-title">Sindicatos</h3>
@@ -158,7 +148,7 @@
       </section>
 
       <!-- Modal de Detalles -->
-      <!-- <div v-if="selectedPerson" class="modal-overlay" @click="closeModal">
+      <div v-if="selectedPerson" class="modal-overlay" @click="closeModal">
         <div class="modal-content" @click.stop>
           <button class="modal-close" @click="closeModal">✕</button>
 
@@ -194,10 +184,10 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <!-- Modal de Sindicato -->
-      <!-- <div v-if="selectedSindicato" class="modal-overlay" @click="closeSindicatoModal">
+      <div v-if="selectedSindicato" class="modal-overlay" @click="closeSindicatoModal">
         <div class="modal-content sindicato-modal" @click.stop>
           <button class="modal-close" @click="closeSindicatoModal">✕</button>
 
@@ -245,7 +235,7 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
@@ -327,13 +317,13 @@ export default {
 
 .page-header {
   text-align: center;
-  margin-bottom: var(--spacing-xl);
+  /* margin-bottom: var(--spacing-xl); */
 }
 
 .page-title {
   font-size: 3rem;
   color: var(--color-azul-andino);
-  margin-bottom: var(--spacing-sm);
+  /* margin-bottom: var(--spacing-sm); */
   font-weight: 700;
 }
 
@@ -371,6 +361,7 @@ export default {
 
 /* Nivel 1: Máximas Autoridades */
 .autoridades-maximas {
+  padding-top: var(--spacing-md);
   display: flex;
   justify-content: center;
   gap: var(--spacing-xl);
@@ -390,6 +381,7 @@ export default {
 }
 
 .subcentral-directorio {
+  /* padding-top: var(--spacing-lg); */
   display: flex;
   justify-content: center;
   gap: var(--spacing-md);
@@ -397,6 +389,7 @@ export default {
 }
 
 .nivel-2-card {
+  margin-top: 60px;
   background: linear-gradient(135deg, var(--color-verde-andino), var(--color-azul-andino));
   color: var(--color-blanco);
   min-width: 150px;
@@ -457,8 +450,8 @@ export default {
 }
 
 .mini-foto {
-  width: 25px;
-  height: 25px;
+  width: 55px;
+  height: 55px;
   background: var(--color-oscuro);
   color: var(--color-blanco);
   border-radius: 50%;
@@ -491,6 +484,7 @@ export default {
   transition: all 0.3s ease;
   box-shadow: var(--shadow-light);
   position: relative;
+  padding-top: calc(var(--spacing-md) + 20px);
 }
 
 .autoridad-card:hover {
@@ -499,14 +493,17 @@ export default {
 }
 
 .autoridad-foto {
-  margin-bottom: var(--spacing-sm);
+  /* margin-bottom: var(--spacing-sm); */
+  margin-top: -100px; /* eleva la foto por encima de la tarjeta */
+  position: relative;
+  z-index: 2;
 }
 
 .foto-placeholder {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(17, 17, 17, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -516,8 +513,8 @@ export default {
 }
 
 .autoridad-foto.small .foto-placeholder {
-  width: 45px;
-  height: 45px;
+  width: 95px;
+  height: 95px;
   font-size: 1.5rem;
 }
 
@@ -787,6 +784,7 @@ export default {
   }
 
   .subcentral-directorio {
+    padding-top: var(--spacing-lg);
     flex-direction: column;
     align-items: center;
   }

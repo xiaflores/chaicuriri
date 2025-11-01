@@ -4,7 +4,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 // Importar las vistas (nombres correctos según los archivos que creamos)
 import HomePage from '../views/HomePage.vue'
 import HistoryPage from '../views/HistoryPage.vue'
-import OrganizationPage from '../views/OrganizationPage.vue'
 import OrganigramaPage from '../views/OrganigramaPage.vue'
 import NoticiasPage from '../views/NoticiasPage.vue'
 import GalleryPage from '../views/GalleryPage.vue'
@@ -29,15 +28,6 @@ const routes = [
     meta: {
       title: 'Historia y Cultura - Comunidad Chaicuriri',
       description: 'Conoce la rica historia y tradiciones culturales de nuestra comunidad andina',
-    },
-  },
-  {
-    path: '/organizacion',
-    name: 'OrganizationPage',
-    component: OrganizationPage,
-    meta: {
-      title: 'Organización Comunal - Comunidad Chaicuriri',
-      description: 'Estructura organizativa y autoridades de la comunidad',
     },
   },
   {

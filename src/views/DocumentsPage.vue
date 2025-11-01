@@ -4,7 +4,6 @@
     <div class="container">
       <div class="page-header">
         <h1 class="page-title">Estatutos y Reglamentos</h1>
-        <p class="page-subtitle">Normativa interna y documentos de la comunidad</p>
       </div>
 
       <!-- Información importante -->
@@ -164,13 +163,11 @@ export default {
 
 .page-header {
   text-align: center;
-  margin-bottom: var(--spacing-xl);
 }
 
 .page-title {
   font-size: 3rem;
   color: var(--color-azul-andino);
-  margin-bottom: var(--spacing-sm);
   font-weight: 700;
 }
 
@@ -181,13 +178,13 @@ export default {
 }
 
 .info-section {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
 }
 
 .info-card {
   background: linear-gradient(135deg, var(--color-amarillo-andino), var(--color-naranja-andino));
   color: var(--color-blanco);
-  padding: var(--spacing-lg);
+  padding: var(--spacing-sm);
   border-radius: var(--border-radius);
   display: flex;
   align-items: center;

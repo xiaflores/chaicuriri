@@ -145,7 +145,7 @@
             <div class="widget news-widget">
               <div class="widget-header">
                 <h3>Noticias Recientes</h3>
-                <router-link to="/noticias" class="widget-link">Ver todas</router-link>
+                <router-link to="/comunicados" class="widget-link">Ver todas</router-link>
               </div>
               <div class="widget-content">
                 <div class="news-item" v-for="noticia in recentNews" :key="noticia.id">
@@ -188,16 +188,19 @@
 </template>
 
 <script>
+import { onMounted } from 'vue'
 import { useContent } from '../composables/useContent'
 
 export default {
   name: 'HomePage',
   setup() {
-    const { loading, error, homeContent, getRecentNews, formatDate, formatShortDate, loadContent } =
+    const { loading, error, homeContent, recentNews, formatDate, formatShortDate, loadAllContent } =
       useContent()
 
-    // Obtener noticias recientes (máximo 3)
-    const recentNews = getRecentNews(3)
+    // Cargar contenido al montar para que recentNews se rellene en la primera visita
+    onMounted(() => {
+      loadAllContent()
+    })
 
     return {
       loading,
@@ -206,7 +209,7 @@ export default {
       recentNews,
       formatDate,
       formatShortDate,
-      loadContent,
+      loadAllContent,
     }
   },
 }

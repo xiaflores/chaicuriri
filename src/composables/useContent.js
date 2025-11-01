@@ -1,13 +1,13 @@
 // src/composables/useContent.js
 import { ref, computed } from 'vue'
 
-console.log('🔍 Composable useContent cargado')
+console.log('Composable useContent cargado')
 
 // Estado global reactivo para cada sección
 const homeData = ref(null)
 const historyData = ref(null)
 const organizationData = ref(null)
-const newsData = ref(null)
+const newsData = ref([])
 const galleryData = ref(null)
 const documentsData = ref(null)
 const contactData = ref(null)
@@ -224,16 +224,6 @@ export function useContent() {
     return newsContent.value.find((noticia) => noticia.id === id) || null
   }
 
-  const getRecentNews = (limit = 3) => {
-    const recent = newsContent.value
-      .filter((noticia) => noticia.estado === 'vigente')
-      .sort((a, b) => new Date(b.fecha) - new Date(a.fecha))
-      .slice(0, limit)
-
-    console.log('🔍 getRecentNews resultado:', recent)
-    return recent
-  }
-
   const getNewsByCategory = (categoria) => {
     return newsContent.value.filter((noticia) => noticia.categoria === categoria)
   }
@@ -272,33 +262,53 @@ export function useContent() {
     )
   }
 
-  // Funciones de formato
+  // Parsear YYYY-MM-DD como fecha en zona local (evita desplazamiento por timezone)
+  const parseLocalDate = (dateString) => {
+    if (!dateString) return null
+    // Si viene en formato ISO completo, dejar que Date lo maneje
+    if (dateString.includes('T')) return new Date(dateString)
+    const parts = dateString.split('-').map(Number)
+    if (parts.length < 3) return new Date(dateString)
+    const [year, month, day] = parts
+    return new Date(year, month - 1, day) // crea fecha en zona local
+  }
+
   const formatDate = (dateString) => {
     try {
-      const date = new Date(dateString)
+      const date = parseLocalDate(dateString)
       const options = {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
       }
-      return date.toLocaleDateString('es-ES', options)
-    } catch (error) {
+      return date ? date.toLocaleDateString('es-ES', options) : dateString
+    } catch {
       return dateString
     }
   }
 
   const formatShortDate = (dateString) => {
     try {
-      const date = new Date(dateString)
-      const options = {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-      }
-      return date.toLocaleDateString('es-ES', options)
-    } catch (error) {
+      const date = parseLocalDate(dateString)
+      const options = { year: 'numeric', month: 'short', day: 'numeric' }
+      return date ? date.toLocaleDateString('es-ES', options) : dateString
+    } catch {
       return dateString
     }
+  }
+  // Actualizar ordenamiento de noticias para usar parseLocalDate (más robusto)
+  const recentNews = computed(() => {
+    if (!Array.isArray(newsData.value) || newsData.value.length === 0) return []
+    return newsData.value
+      .filter((n) => (n?.estado ?? 'vigente').toString().toLowerCase() === 'vigente')
+      .map((n) => ({ _ts: parseLocalDate(n.fecha)?.getTime() || 0, n }))
+      .sort((a, b) => b._ts - a._ts)
+      .map((x) => x.n)
+  })
+
+  // Función compatible que devuelve N recientes
+  const getRecentNews = (limit = 3) => {
+    return recentNews.value.slice(0, limit)
   }
 
   // Función de búsqueda global
@@ -411,5 +421,6 @@ export function useContent() {
 
     // Búsqueda global
     searchContent,
+    recentNews,
   }
 }
