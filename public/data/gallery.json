@@ -1,122 +1,34 @@
 [
   {
     "id": 1,
-    "titulo": "Fiesta Patronal San Pedro 2024",
+    "titulo": "Camelidos de Chaicuriri",
     "categoria": "celebraciones",
     "imagen": "/images/gallery/camelidos.jpg",
-    "descripcion": "Celebración de nuestra fiesta patronal con danzas tradicionales y gran participación comunitaria. Más de 200 personas participaron en esta hermosa festividad.",
+    "descripcion": "Llamas cargando alimentos durante la cosecha de papa",
     "fecha": "2024-06-29"
   },
   {
     "id": 2,
-    "titulo": "Trabajo Comunitario - Cosecha de Papa",
-    "categoria": "trabajos",
-    "imagen": "/images/gallery/cosecha-papa.jpg",
-    "descripcion": "Ayni comunitario para la cosecha de papa, manteniendo vivas nuestras tradiciones de reciprocidad y trabajo conjunto.",
+    "titulo": "Laguna de Chaicuriri",
+    "categoria": "paisajes",
+    "imagen": "/images/gallery/lago.jpg",
+    "descripcion": "Vista panorámica de la laguna de Chaicuriri, un lugar de gran importancia cultural para nuestra comunidad.",
     "fecha": "2024-04-15"
   },
   {
     "id": 3,
-    "titulo": "Paisajes de Chaicuriri - Amanecer Andino",
+    "titulo": "Monolito al atardecer",
     "categoria": "paisajes",
-    "imagen": "/images/gallery/amanecer-andino.jpg",
-    "descripcion": "Hermoso amanecer en nuestras tierras altas, mostrando la majestuosidad del altiplano y la belleza de nuestro territorio ancestral.",
+    "imagen": "/images/gallery/monolito.jpg",
+    "descripcion": "Monolito al lado de la laguna",
     "fecha": "2024-05-20"
   },
   {
     "id": 4,
     "titulo": "Año Nuevo Andino - Ritual de la Pachamama",
     "categoria": "celebraciones",
-    "imagen": "/images/gallery/año-nuevo-andino.jpg",
+    "imagen": "/images/gallery/lago.jpg",
     "descripcion": "Ceremonia ancestral de agradecimiento a la Pachamama en el solsticio de invierno, renovando nuestras energías para el nuevo ciclo.",
     "fecha": "2024-06-21"
-  },
-  {
-    "id": 5,
-    "titulo": "Construcción del Salón Comunal",
-    "categoria": "trabajos",
-    "imagen": "/images/gallery/salon-comunal.jpg",
-    "descripcion": "Trabajo mancomunado para la construcción de nuestro nuevo salón de reuniones, ejemplo de la unidad y fuerza de nuestra comunidad.",
-    "fecha": "2024-08-10"
-  },
-  {
-    "id": 6,
-    "titulo": "Taller de Textiles Tradicionales",
-    "categoria": "trabajos",
-    "imagen": "/images/gallery/taller-textiles.jpg",
-    "descripcion": "Mujeres jóvenes aprendiendo las técnicas ancestrales de tejido, preservando nuestro patrimonio cultural inmaterial.",
-    "fecha": "2024-09-15"
-  },
-  {
-    "id": 7,
-    "titulo": "Vista Panorámica de la Comunidad",
-    "categoria": "paisajes",
-    "imagen": "/images/gallery/vista-panoramica.jpg",
-    "descripcion": "Vista general de nuestra querida comunidad desde las alturas, mostrando la distribución de viviendas y cultivos.",
-    "fecha": "2024-03-12"
-  },
-  {
-    "id": 8,
-    "titulo": "Carnaval Andino 2024",
-    "categoria": "celebraciones",
-    "imagen": "/images/gallery/carnaval-2024.jpg",
-    "descripcion": "Colorida celebración del carnaval con comparsas, música tradicional y la alegría característica de nuestras fiestas.",
-    "fecha": "2024-02-18"
-  },
-  {
-    "id": 9,
-    "titulo": "Ganado en Pastoreo - Sector Sur",
-    "categoria": "trabajos",
-    "imagen": "/images/gallery/ganado-pastoreo.jpg",
-    "descripcion": "Llamas y alpacas pastando en los campos del sector sur, actividad tradicional fundamental para nuestra economía.",
-    "fecha": "2024-07-08"
-  },
-  {
-    "id": 10,
-    "titulo": "Laguna Chaicuriri al Atardecer",
-    "categoria": "paisajes",
-    "imagen": "/images/gallery/laguna-atardecer.jpg",
-    "descripcion": "Nuestra laguna sagrada durante un hermoso atardecer, lugar de ceremonias ancestrales y fuente de vida para la comunidad.",
-    "fecha": "2024-10-05"
-  },
-  {
-    "id": 11,
-    "titulo": "Inauguración Sistema de Agua Potable",
-    "categoria": "trabajos",
-    "imagen": "/images/gallery/agua-potable.jpg",
-    "descripcion": "Momento histórico de la inauguración del nuevo sistema de agua potable, mejorando la calidad de vida de todas las familias.",
-    "fecha": "2024-10-15"
-  },
-  {
-    "id": 12,
-    "titulo": "Cultivos de Quinua en Floración",
-    "categoria": "trabajos",
-    "imagen": "/images/gallery/quinua-floracion.jpg",
-    "descripcion": "Hermosos campos de quinua en plena floración, mostrando uno de nuestros principales cultivos tradicionales.",
-    "fecha": "2024-01-20"
-  },
-  {
-    "id": 13,
-    "titulo": "Encuentro de Medicina Tradicional",
-    "categoria": "celebraciones",
-    "imagen": "/images/gallery/medicina-tradicional.jpg",
-    "descripcion": "Segundo encuentro de medicina tradicional con la participación de curanderos y conocedores de plantas medicinales.",
-    "fecha": "2024-06-18"
-  },
-  {
-    "id": 14,
-    "titulo": "Asamblea General Comunitaria",
-    "categoria": "trabajos",
-    "imagen": "/images/gallery/asamblea-general.jpg",
-    "descripcion": "Asamblea general donde se toman las decisiones importantes para el desarrollo y bienestar de nuestra comunidad.",
-    "fecha": "2024-11-03"
-  },
-  {
-    "id": 15,
-    "titulo": "Nevados de la Cordillera Occidental",
-    "categoria": "paisajes",
-    "imagen": "/images/gallery/nevados-cordillera.jpg",
-    "descripcion": "Imponente vista de los nevados de la Cordillera Occidental que rodean nuestro territorio, guardianes ancestrales.",
-    "fecha": "2024-08-30"
   }
 ]

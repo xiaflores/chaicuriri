@@ -77,7 +77,16 @@
 
       <!-- Modal para vista detallada -->
       <div v-if="selectedImage" class="modal-overlay" @click="closeModal">
-        <div class="modal-content" @click.stop>
+        <div
+          class="modal-content"
+          @click.stop
+          @touchstart="onTouchStart"
+          @touchmove="onTouchMove"
+          @touchend="onTouchEnd"
+        >
+          <!-- Navegación anterior/siguiente -->
+          <button class="modal-nav prev" @click.stop="prevImage" aria-label="Anterior">‹</button>
+          <button class="modal-nav next" @click.stop="nextImage" aria-label="Siguiente">›</button>
           <button class="modal-close" @click="closeModal">✕</button>
 
           <div class="modal-image">
@@ -139,7 +148,7 @@
 
 <script>
 import { useContent } from '../composables/useContent'
-import { ref, computed } from 'vue'
+import { ref, computed, watch, onBeforeUnmount } from 'vue'
 
 export default {
   name: 'GalleryPage',
@@ -188,6 +197,80 @@ export default {
       return classes[category] || 'category-default'
     }
 
+    // const openModal = (item) => {
+    //   selectedImage.value = item
+    // }
+
+    // const closeModal = () => {
+    //   selectedImage.value = null
+    // }
+    // Navegación entre imágenes
+    const getCurrentIndex = () => {
+      const list = filteredGallery.value || []
+      if (!selectedImage.value) return -1
+      return list.findIndex((i) => i.id === selectedImage.value.id)
+    }
+
+    const prevImage = () => {
+      const list = filteredGallery.value || []
+      if (!list.length) return
+      const idx = getCurrentIndex()
+      if (idx === -1) return
+      const newIdx = idx > 0 ? idx - 1 : list.length - 1 // wrap
+      selectedImage.value = list[newIdx]
+    }
+
+    const nextImage = () => {
+      const list = filteredGallery.value || []
+      if (!list.length) return
+      const idx = getCurrentIndex()
+      if (idx === -1) return
+      const newIdx = idx < list.length - 1 ? idx + 1 : 0 // wrap
+      selectedImage.value = list[newIdx]
+    }
+
+    // Swipe touch handling
+    const touchStartX = ref(0)
+    const touchDeltaX = ref(0)
+    const SWIPE_THRESHOLD = 60
+
+    const onTouchStart = (e) => {
+      touchStartX.value = e.touches[0].clientX
+      touchDeltaX.value = 0
+    }
+    const onTouchMove = (e) => {
+      touchDeltaX.value = e.touches[0].clientX - touchStartX.value
+    }
+    const onTouchEnd = () => {
+      const dx = touchDeltaX.value
+      if (Math.abs(dx) > SWIPE_THRESHOLD) {
+        if (dx < 0) nextImage()
+        else prevImage()
+      }
+      touchStartX.value = 0
+      touchDeltaX.value = 0
+    }
+
+    // Teclas de navegación y escape
+    const onKeyDown = (e) => {
+      if (!selectedImage.value) return
+      if (e.key === 'ArrowLeft') prevImage()
+      if (e.key === 'ArrowRight') nextImage()
+      if (e.key === 'Escape') closeModal()
+    }
+
+    // Añadir/remover listener según modal abierto
+    watch(
+      () => selectedImage.value,
+      (val) => {
+        if (val) window.addEventListener('keydown', onKeyDown)
+        else window.removeEventListener('keydown', onKeyDown)
+      },
+    )
+    onBeforeUnmount(() => {
+      window.removeEventListener('keydown', onKeyDown)
+    })
+
     const openModal = (item) => {
       selectedImage.value = item
     }
@@ -195,7 +278,6 @@ export default {
     const closeModal = () => {
       selectedImage.value = null
     }
-
     // Función compartir (Web Share API + fallback copia al portapapeles)
     const shareImage = async (item) => {
       if (!item) return
@@ -245,6 +327,12 @@ export default {
       shareImage,
       getImageUrl,
       onImageError,
+      // new exports
+      prevImage,
+      nextImage,
+      onTouchStart,
+      onTouchMove,
+      onTouchEnd,
     }
   },
 }
@@ -362,8 +450,34 @@ export default {
   background: #f5f6f8;
   display: block;
 }
-
-.image-container {
+.modal-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.45);
+  color: var(--color-blanco);
+  border: none;
+  width: 46px;
+  height: 64px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1002;
+  transition: background 0.18s ease;
+}
+.modal-nav:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+.modal-nav.prev {
+  left: 12px;
+}
+.modal-nav.next {
+  right: 12px;
+}
+s .image-container {
   position: relative;
   height: 250px;
   overflow: hidden;
@@ -700,6 +814,17 @@ export default {
   }
   .modal-title {
     font-size: 1.1rem;
+  }
+  .modal-nav {
+    width: 40px;
+    height: 56px;
+    font-size: 1.6rem;
+  }
+  .modal-nav.prev {
+    left: 8px;
+  }
+  .modal-nav.next {
+    right: 8px;
   }
 }
 </style>
