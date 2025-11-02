@@ -53,10 +53,13 @@
             @click="openModal(item)"
           >
             <div class="image-container">
-              <div class="image-placeholder">
-                <span class="placeholder-icon">📷</span>
-                <span class="placeholder-text">{{ item.titulo }}</span>
-              </div>
+              <img
+                :src="getImageUrl(item.imagen)"
+                :alt="item.titulo || 'Imagen de la galería'"
+                class="gallery-thumb"
+                loading="lazy"
+                @error="onImageError"
+              />
               <div class="image-overlay">
                 <div class="overlay-content"></div>
               </div>
@@ -78,19 +81,21 @@
           <button class="modal-close" @click="closeModal">✕</button>
 
           <div class="modal-image">
-            <div class="modal-placeholder">
-              <span class="modal-icon">📷</span>
-              <h3>{{ selectedImage.titulo }}</h3>
-            </div>
+            <img
+              :src="getImageUrl(selectedImage.imagen)"
+              :alt="selectedImage.titulo || 'Imagen detallada'"
+              class="modal-img"
+              @error="onImageError"
+            />
           </div>
 
           <div class="modal-info">
-            <!-- Botón de compartir -->
-            <div class="modal-actions">
-              <button class="modal-share" @click="shareImage(selectedImage)">Compartir</button>
+            <div class="modal-header-row">
+              <h2 class="modal-title">{{ selectedImage.titulo }}</h2>
+              <div class="modal-actions">
+                <button class="modal-share" @click="shareImage(selectedImage)">Compartir</button>
+              </div>
             </div>
-
-            <h2>{{ selectedImage.titulo }}</h2>
             <p class="modal-description">{{ selectedImage.descripcion }}</p>
             <div class="modal-meta">
               <span class="modal-category" :class="getCategoryClass(selectedImage.categoria)">
@@ -152,6 +157,17 @@ export default {
       }
       return getGalleryByCategory(selectedCategory.value)
     })
+    const getImageUrl = (imagen) => {
+      if (!imagen) return '/images/gallery/placeholder.jpg' // añade un placeholder opcional
+      if (imagen.startsWith('/')) return imagen
+      if (imagen.startsWith('http')) return imagen
+      return `/images/gallery/${imagen}`
+    }
+
+    // Fallback si la imagen no carga
+    const onImageError = (ev) => {
+      ev.target.src = '/images/gallery/placeholder.jpg'
+    }
 
     // Funciones auxiliares
     const getCategoryName = (category) => {
@@ -227,6 +243,8 @@ export default {
       openModal,
       closeModal,
       shareImage,
+      getImageUrl,
+      onImageError,
     }
   },
 }
@@ -325,6 +343,24 @@ export default {
 .gallery-item:hover {
   box-shadow: var(--shadow-medium);
   transform: translateY(-5px);
+}
+.gallery-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.gallery-item:hover .gallery-thumb {
+  transform: scale(1.03);
+}
+
+.modal-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  background: #f5f6f8;
+  display: block;
 }
 
 .image-container {
@@ -445,6 +481,20 @@ export default {
 }
 
 /* Modal */
+.modal-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 1.4rem;
+  color: var(--color-oscuro);
+  font-weight: 700;
+}
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -504,7 +554,7 @@ export default {
 }
 
 .modal-info {
-  padding: var(--spacing-xl);
+  padding: var(--spacing-xs);
 }
 
 .modal-info h2 {
@@ -640,6 +690,16 @@ export default {
 
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .modal-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+  }
+  .modal-title {
+    font-size: 1.1rem;
   }
 }
 </style>
