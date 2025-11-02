@@ -58,21 +58,8 @@
                 <span class="placeholder-text">{{ item.titulo }}</span>
               </div>
               <div class="image-overlay">
-                <div class="overlay-content">
-                  <h3 class="image-title">{{ item.titulo }}</h3>
-                  <p class="image-category">{{ getCategoryName(item.categoria) }}</p>
-                  <div v-if="item.fecha" class="image-date">
-                    {{ formatDate(item.fecha) }}
-                  </div>
-                </div>
+                <div class="overlay-content"></div>
               </div>
-            </div>
-            <div class="item-info">
-              <h4>{{ item.titulo }}</h4>
-              <p class="item-description">{{ item.descripcion }}</p>
-              <span class="item-category" :class="getCategoryClass(item.categoria)">
-                {{ getCategoryName(item.categoria) }}
-              </span>
             </div>
           </div>
 
@@ -89,13 +76,20 @@
       <div v-if="selectedImage" class="modal-overlay" @click="closeModal">
         <div class="modal-content" @click.stop>
           <button class="modal-close" @click="closeModal">✕</button>
+
           <div class="modal-image">
             <div class="modal-placeholder">
               <span class="modal-icon">📷</span>
               <h3>{{ selectedImage.titulo }}</h3>
             </div>
           </div>
+
           <div class="modal-info">
+            <!-- Botón de compartir -->
+            <div class="modal-actions">
+              <button class="modal-share" @click="shareImage(selectedImage)">Compartir</button>
+            </div>
+
             <h2>{{ selectedImage.titulo }}</h2>
             <p class="modal-description">{{ selectedImage.descripcion }}</p>
             <div class="modal-meta">
@@ -186,6 +180,41 @@ export default {
       selectedImage.value = null
     }
 
+    // Función compartir (Web Share API + fallback copia al portapapeles)
+    const shareImage = async (item) => {
+      if (!item) return
+      const imagePath = item.imagen || ''
+      const url = imagePath.startsWith('http') ? imagePath : `${location.origin}${imagePath}`
+      const title = item.titulo || 'Imagen'
+      const text = item.descripcion || ''
+
+      if (navigator.share) {
+        try {
+          await navigator.share({ title, text, url })
+          return
+        } catch {
+          // usuario canceló o no se completó, caer al fallback
+        }
+      }
+
+      // Fallback: copiar enlace al portapapeles
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(url)
+        } else {
+          const ta = document.createElement('textarea')
+          ta.value = url
+          document.body.appendChild(ta)
+          ta.select()
+          document.execCommand('copy')
+          document.body.removeChild(ta)
+        }
+        alert('Enlace copiado al portapapeles')
+      } catch {
+        alert('No se pudo compartir ni copiar el enlace')
+      }
+    }
+
     return {
       galleryContent,
       selectedCategory,
@@ -197,6 +226,7 @@ export default {
       getCategoryClass,
       openModal,
       closeModal,
+      shareImage,
     }
   },
 }
@@ -505,6 +535,28 @@ export default {
 .modal-date {
   color: var(--color-gris);
   font-size: 0.9rem;
+}
+
+.modal-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: flex-end;
+  margin-bottom: var(--spacing-sm);
+}
+
+.modal-share {
+  background: var(--color-verde-andino);
+  color: var(--color-blanco);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+.modal-share:hover {
+  opacity: 0.9;
 }
 
 .stats-section {
