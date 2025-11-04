@@ -2,10 +2,6 @@
 <template>
   <div class="news-page">
     <div class="container">
-      <div class="page-header">
-        <h1 class="page-title">Noticias y Comunicados</h1>
-      </div>
-
       <!-- Filtros -->
       <div class="filters-section">
         <div class="filters-container">
@@ -88,9 +84,6 @@
           <div class="news-info">
             <h3 class="news-title">{{ noticia.titulo }}</h3>
             <p class="news-date">{{ formatDate(noticia.fecha) }}</p>
-            <p class="news-description">
-              {{ getExcerpt(noticia.descripcion || noticia.contenido) }}
-            </p>
 
             <!-- Información adicional según categoría -->
             <div class="additional-info">
@@ -99,9 +92,6 @@
               </div>
               <div v-if="noticia.fecha_recepcion" class="info-item">
                 <strong>Recepción:</strong> {{ formatDate(noticia.fecha_recepcion) }}
-              </div>
-              <div v-if="noticia.autor" class="info-item">
-                <strong>Autor:</strong> {{ noticia.autor }}
               </div>
             </div>
 
@@ -470,7 +460,6 @@ export default {
 
 .page-header {
   text-align: center;
-  margin-bottom: var(--spacing-xl);
 }
 
 .page-title {

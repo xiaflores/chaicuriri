@@ -8,8 +8,8 @@
       <div class="footer-content">
         <!-- Sección de información -->
         <div class="footer-section">
+          <h4 class="footer-description">Comunidad</h4>
           <h3 class="footer-title">Chaicuriri</h3>
-          <p class="footer-description">Comunidad originaria rural andina.</p>
           <div class="social-links">
             <a href="#" class="social-link facebook" title="Facebook">
               <span class="social-icon"><i class="bx bxl-facebook"></i></span>
@@ -28,7 +28,7 @@
             <li>
               <router-link to="/historia" class="footer-link">Historia y Cultura</router-link>
             </li>
-            <li><router-link to="/organizacion" class="footer-link">Organización</router-link></li>
+            <li><router-link to="/organigrama" class="footer-link">Organigrama</router-link></li>
             <li><router-link to="/noticias" class="footer-link">Noticias</router-link></li>
           </ul>
         </div>
@@ -38,33 +38,22 @@
           <h4 class="footer-subtitle">Contacto</h4>
           <div class="contact-info">
             <div class="contact-item">
-              <span class="contact-icon"><i class="bx bx-pin"></i></span>
               <span
-                >Comunidad Chaicuriri<br />Provincia Alonso de Ibañez <br />
+                >Comunidad Chaicuriri<br />
                 Caripuyo - Potosi - Bolivia</span
               >
             </div>
             <div class="contact-item">
-              <span class="contact-icon"><i class="bx bx-phone"></i></span>
               <span>+591 71189551</span>
             </div>
-            <!-- <div class="contact-item">
-              <span class="contact-icon"><i class="bx bx-envelope"></i></span>
-              <span>chaicuriri@gmail.com</span>
-            </div> -->
           </div>
         </div>
-      </div>
-
-      <!-- Divider con patrón andino -->
-      <div class="footer-divider">
-        <div class="pattern-line"></div>
       </div>
 
       <!-- Copyright -->
       <div class="footer-bottom">
         <div class="copyright">
-          <p>&copy; {{ currentYear }} Comunidad Chaicuriri. Todos los derechos reservados.</p>
+          <p>&copy; {{ currentYear }} Comunidad Chaicuriri.</p>
         </div>
         <div class="credits">
           <p class="credits-text">Desarrollado para nuestra comunidad</p>
@@ -113,26 +102,25 @@ export default {
   display: grid;
   grid-template-columns: 2fr 1fr 1.5fr 1fr;
   gap: var(--spacing-xl);
-  padding: var(--spacing-xl) 0;
+  padding: var(--spacing-sm) 0;
 }
 
 .footer-section h3.footer-title {
   color: var(--color-amarillo-andino);
   font-size: 1.8rem;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
   font-weight: 700;
 }
 
 .footer-section h4.footer-subtitle {
   color: var(--color-verde-andino);
   font-size: 1.2rem;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-sx);
   font-weight: 600;
 }
 
 .footer-description {
   line-height: 1.6;
-  margin-bottom: var(--spacing-md);
   opacity: 0.9;
 }
 

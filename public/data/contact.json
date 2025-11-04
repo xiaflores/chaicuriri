@@ -6,31 +6,7 @@
     "lat": -18.222326999489713,
     "lng": -66.63552000775981
   },
-
-  "autoridades_contacto": [
-    {
-      "cargo": "Alcalde Comunal",
-      "nombre": "Gualberto Flores Ledezma",
-      "telefono": "+591 71189551"
-    },
-    {
-      "cargo": "Corregidor Comunal",
-      "nombre": "Eloy Ramirez",
-      "telefono": "+591 78234567"
-    },
-    {
-      "cargo": "Comisario Villa 21 de septiembre",
-      "nombre": "",
-      "telefono": "+591 78345678"
-    },
-    {
-      "cargo": "Comisario Iruputunku",
-      "nombre": "Carlos Roberto Choque Lima",
-      "telefono": "+591 78345678"
-    }
-  ],
   "idiomas": {
-    "oficiales": ["Español", "Aymara", "Quechua"],
-    "nota": "La mayoría de autoridades habla ambos idiomas. Se recomienda aprender algunas palabras básicas en quechua para mejor comunicación."
+    "oficiales": ["Español", "Aymara", "Quechua"]
   }
 }

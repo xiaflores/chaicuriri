@@ -30,9 +30,6 @@
           <div class="container">
             <div class="hero-content">
               <h1 class="hero-title">{{ homeContent.banner?.titulo || 'Chaicuriri' }}</h1>
-              <p class="hero-subtitle">
-                {{ homeContent.banner?.subtitulo || 'Comunidad Originaria Rural Andina' }}
-              </p>
 
               <div class="hero-actions">
                 <router-link to="/historia" class="btn btn-primary">
@@ -61,7 +58,6 @@
                 <div v-else class="photo-placeholder">👤</div>
               </div>
               <div class="authority-info">
-                <h2>Mensaje de Bienvenida</h2>
                 <h3 class="authority-name">
                   {{ homeContent.mensaje_bienvenida?.autoridad || 'Autoridad Comunal' }}
                 </h3>
@@ -317,14 +313,14 @@ export default {
 .hero-title {
   font-size: 4rem;
   font-weight: 700;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   animation: slideInDown 1s ease-out;
 }
 
 .hero-subtitle {
   font-size: 1.8rem;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
   opacity: 0.9;
   animation: slideInUp 1s ease-out 0.3s both;
 }

@@ -2,10 +2,6 @@
 <template>
   <div class="organigrama-page">
     <div class="container">
-      <div class="page-header">
-        <h1 class="page-title">Autoridades de la comunidad</h1>
-      </div>
-
       <!-- Organigrama Visual -->
       <section class="organigrama-visual">
         <div class="organigrama-container">
@@ -22,9 +18,14 @@
                 <div class="autoridad-foto">
                   <div class="foto-placeholder">👤</div>
                 </div>
+
+                <div class="autoridad-foto">
+                  <div class="foto-placeholder">👤</div>
+                </div>
                 <div class="autoridad-info">
                   <h4>{{ autoridad.cargo }}</h4>
-                  <p>{{ autoridad.nombre }}</p>
+                  <p>{{ autoridad.nombreTata }}</p>
+                  <p>{{ autoridad.nombreMama }}</p>
                 </div>
               </div>
             </div>
@@ -41,10 +42,10 @@
                   class="autoridad-card nivel-2-card"
                   @click="showDetails(directivo)"
                 >
-                  <div class="autoridad-foto small">
-                    <div class="foto-placeholder">👤</div>
-                  </div>
                   <div class="autoridad-info">
+                    <div class="autoridad-foto small">
+                      <div class="foto-placeholder">👤</div>
+                    </div>
                     <h5>{{ directivo.cargo }}</h5>
                     <p>{{ directivo.nombre }}</p>
                   </div>
@@ -77,7 +78,7 @@
                     <div class="mini-foto">👤</div>
                     <div class="mini-info">
                       <span class="mini-cargo">{{ directivo.cargo.split(' ').pop() }}</span>
-                      <span class="mini-nombre">{{ directivo.nombre.split(' ')[0] }}</span>
+                      <span class="mini-nombre">{{ directivo.nombre }}</span>
                     </div>
                   </div>
                 </div>

@@ -1,36 +1,31 @@
 {
-  "estructura_organizativa": {
-    "titulo": "Organigrama Comunal Chaicuriri",
-    "descripcion": "Estructura jerárquica de la organización comunal con sus respectivas autoridades y responsabilidades",
-    "fecha_actualizacion": "2024-12-10"
-  },
   "maximas_autoridades": [
     {
       "id": 1,
       "cargo": "Alcalde Comunal",
-      "nombre": "Gualberto Flores Ledezma",
+      "nombreTata": "Gualberto Flores Ledezma",
+      "nombreMama": "Gregoria Barro Toco",
       "nivel": 1,
-      "foto": "/images/authorities/alcalde.jpg",
-      "periodo": "2024-2025",
+      "foto1": "/images/authorities/tataAlcalde.jpg",
+      "foto2": "/images/authorities/mamaAlcalde.jpg",
+      "periodo": "2025-2026",
       "responsabilidades": [
-        "Máxima autoridad ejecutiva de la comunidad",
         "Representación oficial ante instituciones externas",
-        "Coordinación general de proyectos y actividades",
-        "Presidir asambleas generales",
-        "Toma de decisiones estratégicas"
+        "Coordinación general de proyectos y actividades"
       ],
       "contacto": {
-        "telefono": "+591 78123456",
-        "email": "alcalde.chaicuriri@gmail.com"
+        "telefono": "+591 78123456"
       }
     },
     {
       "id": 2,
       "cargo": "Corregidor",
-      "nombre": "Eloy Ramirez Perez",
+      "nombreTata": "Eloy Ramirez Perez",
+      "nombreMama": "Juana Perez",
       "nivel": 1,
-      "foto": "/images/authorities/corregidor.jpg",
-      "periodo": "2024-2025",
+      "foto1": "/images/authorities/tataCorregidor.jpg",
+      "foto2": "/images/authorities/mamaCorregidor.jpg",
+      "periodo": "2025-2026",
       "responsabilidades": [
         "Autoridad máxima en temas de justicia comunitaria",
         "Resolución de conflictos internos",
@@ -39,8 +34,7 @@
         "Mantenimiento del orden y la paz social"
       ],
       "contacto": {
-        "telefono": "+591 78987654",
-        "email": "corregidor.chaicuriri@gmail.com"
+        "telefono": "+591 78987654"
       }
     }
   ],
@@ -121,6 +115,7 @@
       "nombre": "Sindicato Villa 21 de septiembre",
       "nivel": 3,
       "descripcion": "Agrupa a las familias del sector norte de la comunidad, zona principalmente agrícola",
+      "periodo": "2024-2026",
       "directorio": [
         {
           "cargo": "Secretario General",
@@ -240,45 +235,6 @@
         "cantidad": 3,
         "alcance": "Sectores geográficos específicos"
       }
-    ]
-  },
-  "sistema_eleccion": {
-    "modalidad": "Rotativa y por consenso",
-    "duracion_cargos": "1 año",
-    "renovacion": "Asamblea General de noviembre",
-    "requisitos_generales": [
-      "Ser comunario activo",
-      "Mayor de 21 años",
-      "Residir en la comunidad",
-      "No tener antecedentes disciplinarios",
-      "Conocimiento del idioma quechua",
-      "Experiencia en trabajos comunitarios"
-    ],
-    "proceso_eleccion": [
-      "Convocatoria a Asamblea General",
-      "Propuesta de candidatos por sectores",
-      "Evaluación de requisitos y capacidades",
-      "Votación por consenso",
-      "Posesión de cargos en enero"
-    ]
-  },
-  "coordinacion_intersectorial": {
-    "reuniones_regulares": {
-      "maximas_autoridades": "Semanal",
-      "subcentral": "Quincenal",
-      "sindicatos": "Mensual"
-    },
-    "asamblea_general": {
-      "frecuencia": "Mensual",
-      "participantes": "Todas las instancias",
-      "toma_decisiones": "Por consenso y mayoría"
-    },
-    "comisiones_trabajo": [
-      "Desarrollo Productivo",
-      "Infraestructura",
-      "Educación y Cultura",
-      "Salud y Bienestar",
-      "Medio Ambiente"
     ]
   }
 }

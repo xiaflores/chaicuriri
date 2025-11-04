@@ -4,13 +4,12 @@
     <div class="container">
       <!-- ...existing code... -->
       <div class="page-header">
-        <h1 class="page-title">Galería Fotográfica</h1>
+        <h1 class="page-title">Momentos</h1>
       </div>
 
       <!-- Filtros -->
       <div class="filters-section">
         <div class="filters-card">
-          <h3>Filtrar por categoría:</h3>
           <div class="filter-buttons">
             <button
               @click="selectedCategory = ''"
@@ -334,7 +333,7 @@ export default {
 }
 @media (max-width: 1024px) {
   .masonry-grid {
-    column-count: 2;
+    column-count: 3;
     column-gap: 14px;
   }
 }
@@ -453,9 +452,9 @@ export default {
   background-color: var(--color-gris-claro);
 }
 .page-title {
-  font-size: 3rem;
+  text-align: center;
+
   color: var(--color-verde-andino);
-  margin-bottom: var(--spacing-sm);
   font-weight: 700;
 }
 .filters-card {

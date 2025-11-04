@@ -6,7 +6,6 @@
         <!-- Inicio - Alineado a la izquierda -->
         <li class="nav-item nav-home">
           <router-link to="/" class="nav-link" @click="closeMobileMenu">
-            <!-- <span class="nav-icon">🏠</span> -->
             <span>Inicio</span>
           </router-link>
         </li>
@@ -21,7 +20,6 @@
             @click="toggleDropdownMobile"
           >
             <div class="nav-link dropdown-trigger">
-              <!-- <span class="nav-icon">🏛️</span> -->
               <span>Comunidad</span>
               <span class="dropdown-arrow" :class="{ rotate: showDropdown }">▼</span>
             </div>
@@ -108,7 +106,7 @@ export default {
 <style scoped>
 .navigation {
   background-color: var(--color-oscuro);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   position: fixed; /* Cambiado de relative a fixed */
   top: 0;
   left: 0;
@@ -147,7 +145,7 @@ export default {
   display: flex;
   align-items: center;
   gap: var(--spacing-xs);
-  padding: var(--spacing-md) var(--spacing-sm);
+  padding: var(--spacing-sm);
   color: var(--color-blanco);
   text-decoration: none;
   border-radius: var(--border-radius);
@@ -157,24 +155,24 @@ export default {
 }
 
 .nav-link:hover {
-  background-color: var(--color-verde-andino);
+  /* color: var(--color-amarillo-andino); */
   transform: translateY(-2px);
 }
 
 .nav-link.router-link-active {
-  color: var(--color-blanco);
+  color: var(--color-amarillo-andino);
 }
 
 .nav-link.router-link-active::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 6px;
-  height: 6px;
+  width: 2.5rem;
+  height: 2px;
   background-color: var(--color-amarillo-andino);
-  border-radius: 50%;
+  border-radius: 1rem;
 }
 
 .nav-icon {

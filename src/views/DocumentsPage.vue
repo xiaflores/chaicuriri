@@ -2,16 +2,12 @@
 <template>
   <div class="documents-page">
     <div class="container">
-      <div class="page-header">
-        <h1 class="page-title">Estatutos y Reglamentos</h1>
-      </div>
-
       <!-- Información importante -->
       <div class="info-section">
         <div class="info-card">
           <div class="info-icon"><i class="bx bxs-book-content"></i></div>
           <div class="info-content">
-            <h3>Información Importante</h3>
+            <h3>Estatutos y Reglamentos</h3>
             <p>Todos los documentos están disponibles para consulta de los comunarios.</p>
           </div>
         </div>
