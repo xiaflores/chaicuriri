@@ -130,7 +130,7 @@
         },
         {
           "cargo": "Secretario de Actas",
-          "nombre": "Miguel Quispe Choque",
+          "nombre": "",
           "responsabilidades": [
             "Registro de reuniones del sindicato",
             "Documentación de acuerdos sectoriales",
@@ -164,7 +164,7 @@
         },
         {
           "cargo": "Secretario de Actas",
-          "nombre": "Elena Mamani Choque",
+          "nombre": "",
           "responsabilidades": [
             "Documentación de actividades centrales",
             "Registro de visitantes institucionales",
@@ -197,8 +197,8 @@
           ]
         },
         {
-          "cargo": "Secretario de Hacienda",
-          "nombre": "Lucia Ticona Mamani",
+          "cargo": "Secretario de Actas",
+          "nombre": "",
           "responsabilidades": [
             "Administración de fondos ganaderos",
             "Control de ventas de productos pecuarios",

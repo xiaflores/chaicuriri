@@ -11,7 +11,11 @@
           <h4 class="footer-description">Comunidad</h4>
           <h3 class="footer-title">Chaicuriri</h3>
           <div class="social-links">
-            <a href="#" class="social-link facebook" title="Facebook">
+            <a
+              href="https://www.facebook.com/profile.php?id=61583166663998"
+              class="social-link facebook"
+              title="Facebook"
+            >
               <span class="social-icon"><i class="bx bxl-facebook"></i></span>
             </a>
             <a href="#" class="social-link whatsapp" title="WhatsApp">
