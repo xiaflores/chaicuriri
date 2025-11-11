@@ -131,7 +131,6 @@
           <h3 class="section-title small">Idiomas</h3>
           <div class="languages-content">
             <div class="languages-list">
-              <strong>Idiomas oficiales:</strong>
               <div class="language-tags">
                 <span
                   v-for="idioma in contactContent.idiomas.oficiales"
@@ -366,7 +365,6 @@ export default {
   padding: var(--spacing-xl);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-light);
-  border-left: 4px solid var(--color-verde-andino);
   transition: all 0.3s ease;
 }
 

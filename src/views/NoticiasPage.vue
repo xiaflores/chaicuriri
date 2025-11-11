@@ -44,7 +44,7 @@
 
       <!-- Contador de resultados -->
       <div class="results-counter">
-        <p v-if="loading">⏳ Cargando noticias...</p>
+        <p v-if="loading"><i class="bx bxs-hourglass-top"></i> Cargando noticias...</p>
         <p v-else-if="filteredNews && filteredNews.length > 0">
           {{ filteredNews.length }} noticia(s) encontrada(s)
         </p>

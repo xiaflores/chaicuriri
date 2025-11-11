@@ -25,10 +25,18 @@
   },
   {
     "id": 4,
-    "titulo": "Año Nuevo Andino - Ritual de la Pachamama",
+    "titulo": "Aniversario de Caripuyo",
     "categoria": "celebraciones",
-    "imagen": "/images/gallery/lago.jpg",
-    "descripcion": "Ceremonia ancestral de agradecimiento a la Pachamama en el solsticio de invierno, renovando nuestras energías para el nuevo ciclo.",
-    "fecha": "2024-06-21"
+    "imagen": "https://scontent.flpb1-1.fna.fbcdn.net/v/t39.30808-6/578493845_122102609661105555_6963772474141230006_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=BOY25O2zPEUQ7kNvwGb4DZK&_nc_oc=Adl8uaLuVejK3M891JjxJTIwYrSedabAApFzCQIuipsLcbK9mNcxEXDLOCdJbCmWw93PNMPdzH5Dgbob9_umT2b8&_nc_zt=23&_nc_ht=scontent.flpb1-1.fna&_nc_gid=wPy7xKKnlApfUfCGuAkbmw&oh=00_AfifCrF40yuRKPB8rS2h-fEWNhhUKchFpviL96IMw1AkxQ&oe=69184405",
+    "descripcion": "Comunidad Chaicuriri presentes en el aniversario de Caripuyo",
+    "fecha": "2025-11-09"
+  },
+  {
+    "id": 5,
+    "titulo": "Aniversario de Caripuyo",
+    "categoria": "celebraciones",
+    "imagen": "https://scontent.flpb1-1.fna.fbcdn.net/v/t39.30808-6/579583259_122102972943105555_5500165859341469976_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GrkR6GzzQYUQ7kNvwGzRPXq&_nc_oc=AdmI9cm4g_GBJ7JAvJ6T4Ako193ssZcb7P_u0oHzcIES73FBjyPJR5NgYKOXBjmUZRGOTEZqNm7jOlFQUFXKNqWZ&_nc_zt=23&_nc_ht=scontent.flpb1-1.fna&_nc_gid=bSVHxxPdC9Xr4yqKKP7rpw&oh=00_AfiCxDRps9OqMkjqm2uafx7IpDpPyCqzcU6DnD4L5swUKg&oe=6918296E",
+    "descripcion": "Presentacion de danzas en el aniversario de Caripuyo por parte de los estudiantes de la comunidad",
+    "fecha": "2025-11-10"
   }
 ]

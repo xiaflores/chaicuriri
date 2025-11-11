@@ -12,7 +12,7 @@
           <h3 class="footer-title">Chaicuriri</h3>
           <div class="social-links">
             <a
-              href="https://www.facebook.com/profile.php?id=61583166663998"
+              href="https://www.facebook.com/chaicuriri/"
               class="social-link facebook"
               title="Facebook"
             >

@@ -160,7 +160,7 @@
               <div class="widget-header">
                 <h3>Próximos Eventos</h3>
               </div>
-              <div class="widget-content">
+              <!-- <div class="widget-content">
                 <div class="event-item">
                   <div class="event-date">
                     <span class="day">10</span>
@@ -174,7 +174,7 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

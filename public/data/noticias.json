@@ -1,11 +1,21 @@
 [
   {
+    "id": 4,
+    "titulo": "Reunion en la Escuela Chaicuriri",
+    "categoria": "Reunion",
+    "fecha": "2025-11-11",
+    "descripcion": "Reunion con el director e informe anual",
+    "estado": "terminado",
+    "imagen": "",
+    "institucion_destino": ""
+  },
+  {
     "id": 3,
     "titulo": "Comunicado",
     "categoria": "comunicado",
     "fecha": "2025-11-01",
     "descripcion": "Comunicado para el registro agrario y amurallamiento de los cultivos de la comunidad de Chaicuriri.",
-    "estado": "vigente",
+    "estado": "terminado",
     "imagen": "/images/archivo/comunicado-minka.jpg",
     "institucion_destino": "Chaicuriri"
   },
@@ -15,7 +25,7 @@
     "categoria": "eventos",
     "fecha": "2025-11-10",
     "descripcion": "conmemoración del aniversario LXXXVII del municipio de Caripuyo con diversas actividades culturales y sociales.",
-    "estado": "vigente",
+    "estado": "terminado",
     "imagen": "/images/archivo/Caripuyo.jpg",
     "institucion_destino": "Caripuyo"
   },

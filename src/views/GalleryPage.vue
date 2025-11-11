@@ -2,11 +2,6 @@
 <template>
   <div class="gallery-page">
     <div class="container">
-      <!-- ...existing code... -->
-      <div class="page-header">
-        <h1 class="page-title">Momentos</h1>
-      </div>
-
       <!-- Filtros -->
       <div class="filters-section">
         <div class="filters-card">
