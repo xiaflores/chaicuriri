@@ -75,7 +75,7 @@
               @error="handleImageError"
             />
             <div v-else class="image-placeholder">
-              <span class="doc-icon">📰</span>
+              <span class="doc-icon"> <i class="bx bx-news"></i> </span>
               <span class="doc-preview">{{ noticia.titulo }}</span>
             </div>
           </div>

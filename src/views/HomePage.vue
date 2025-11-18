@@ -160,7 +160,7 @@
               <div class="widget-header">
                 <h3>Próximos Eventos</h3>
               </div>
-              <!-- <div class="widget-content">
+              <!-- ss
                 <div class="event-item">
                   <div class="event-date">
                     <span class="day">10</span>
