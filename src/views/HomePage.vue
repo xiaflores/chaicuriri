@@ -271,6 +271,7 @@ export default {
   align-items: center;
   position: relative;
   overflow: hidden;
+  /* object-fit: cover; */
 }
 
 .hero-banner::before {
@@ -280,9 +281,9 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M0,0 Q25,50 50,0 T100,0 L100,100 Q75,50 50,100 T0,100 Z" fill="rgba(255,255,255,0.1)"/></svg>');
-  background-size: 200px 200px;
-  animation: float 20s ease-in-out infinite;
+  background: url('https://scontent.flpb1-1.fna.fbcdn.net/v/t39.30808-6/579267675_122102420931105555_8034565827381111045_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=nmP-99b_jUgQ7kNvwFhZmfc&_nc_oc=AdnTQ_hbsEwPBP72cuutNKOe8JJq8D-_nok1XLHzLROrWAauRLska16-i3j5gSLCN8NTHmCEPtJ1LsKgZKL1i5kk&_nc_zt=23&_nc_ht=scontent.flpb1-1.fna&_nc_gid=V3shJgcUlM9QyEaOvfa1Rw&oh=00_Afiv-JSUhjfbU_hArRVxn1yBD7KttBSvH_6VJyCELma3Sg&oe=6929793D');
+  /* object-fit: cover; */
+  /* animation: float 20s ease-in-out infinite; */
 }
 
 @keyframes float {
@@ -422,7 +423,7 @@ export default {
   text-align: center;
   position: sticky;
   top: 100px;
-  border-left: 4px solid var(--color-amarillo-andino);
+  /* border-left: 4px solid var(--color-amarillo-andino); */
 }
 
 .authority-photo {
@@ -483,7 +484,7 @@ export default {
   padding: var(--spacing-xl);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-medium);
-  border-left: 4px solid var(--color-amarillo-andino);
+  /* border-left: 4px solid var(--color-amarillo-andino); */
 }
 
 .message-text {

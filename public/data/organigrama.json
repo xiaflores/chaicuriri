@@ -21,7 +21,7 @@
       "id": 2,
       "cargo": "Corregidor",
       "nombreTata": "Eloy Ramirez Perez",
-      "nombreMama": "Juana Perez",
+      "nombreMama": "Inocencia Lucas Gutiegrrez",
       "nivel": 1,
       "foto1": "/images/authorities/tataCorregidor.jpg",
       "foto2": "/images/authorities/mamaCorregidor.jpg",
@@ -130,7 +130,7 @@
         },
         {
           "cargo": "Secretario de Actas",
-          "nombre": "",
+          "nombre": "Victotoriano Flores Perez",
           "responsabilidades": [
             "Registro de reuniones del sindicato",
             "Documentación de acuerdos sectoriales",
@@ -198,7 +198,7 @@
         },
         {
           "cargo": "Secretario de Actas",
-          "nombre": "",
+          "nombre": "Juvenal Ramirez Choque",
           "responsabilidades": [
             "Administración de fondos ganaderos",
             "Control de ventas de productos pecuarios",
