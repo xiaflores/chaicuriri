@@ -1,9 +1,17 @@
 [
   {
+    "id": 7,
+    "titulo": "",
+    "categoria": "paisajes",
+    "imagen": "https://i.imgur.com/ni5hSCE.png",
+    "descripcion": "Sembradios de la comunidad de Chaicuriri",
+    "fecha": "2020-07-13"
+  },
+  {
     "id": 6,
     "titulo": "Sembradios",
     "categoria": "paisajes",
-    "imagen": "https://photos.fife.usercontent.google.com/pw/AP1GczMXvpZ2nNE-tUXU5nJ9JIqHIa9Iy6RlITdylYeYVUvv1eN6xbnSTMTq=w1079-h607-s-no-gm?authuser=0",
+    "imagen": "https://i.imgur.com/9Iz6Bya.png",
     "descripcion": "Sembradios de la comunidad de Chaicuriri",
     "fecha": "2019-05-20"
   },
