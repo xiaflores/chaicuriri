@@ -160,21 +160,34 @@
               <div class="widget-header">
                 <h3>Próximos Eventos</h3>
               </div>
-              <!-- ss
-                <div class="event-item">
-                  <div class="event-date">
-                    <span class="day">10</span>
-                    <span class="month">NOV</span>
-                  </div>
-                  <div class="event-info">
-                    <h4>Aniversario del municipio de Caripuyo</h4>
-                    <p>
-                      Actividades programadas en conmemoración del aniversario LXXXVII del municipio
-                      de Caripuyo.
-                    </p>
-                  </div>
+
+              <div class="event-item">
+                <div class="event-date">
+                  <span class="day">27</span>
+                  <span class="month">DIC</span>
                 </div>
-              </div> -->
+                <div class="event-info">
+                  <h4>Asamblea General Ordinario Chaicuriri</h4>
+                  <p>
+                    Asamblea General Ordinario de la Canton Chaicuriri, con el propósito de
+                    coadyuvar, fortalecer e incentivar el trabajo orgánico de nuestra organización
+                    comunal.
+                  </p>
+                </div>
+              </div>
+              <div class="event-item">
+                <div class="event-date">
+                  <span class="day">28</span>
+                  <span class="month">DIC</span>
+                </div>
+                <div class="event-info">
+                  <h4>Ampliado de la Subcentral de Chaicuriri</h4>
+                  <p>
+                    Ampliado de la Subcentral de Chaicuriri para tratar temas de desarrollo
+                    comunitario y planificación anual.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

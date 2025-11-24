@@ -1,19 +1,28 @@
 [
   {
-    "id": 1,
-    "titulo": "Camelidos de Chaicuriri",
-    "categoria": "celebraciones",
-    "imagen": "/images/gallery/camelidos.jpg",
-    "descripcion": "Llamas cargando alimentos durante la cosecha de papa",
-    "fecha": "2024-06-29"
+    "id": 6,
+    "titulo": "Sembradios",
+    "categoria": "paisajes",
+    "imagen": "https://photos.fife.usercontent.google.com/pw/AP1GczMXvpZ2nNE-tUXU5nJ9JIqHIa9Iy6RlITdylYeYVUvv1eN6xbnSTMTq=w1079-h607-s-no-gm?authuser=0",
+    "descripcion": "Sembradios de la comunidad de Chaicuriri",
+    "fecha": "2019-05-20"
   },
   {
-    "id": 2,
-    "titulo": "Laguna de Chaicuriri",
-    "categoria": "paisajes",
-    "imagen": "/images/gallery/lago.jpg",
-    "descripcion": "Vista panorámica de la laguna de Chaicuriri, un lugar de gran importancia cultural para nuestra comunidad.",
-    "fecha": "2024-04-15"
+    "id": 5,
+    "titulo": "Aniversario de Caripuyo",
+    "categoria": "celebraciones",
+    "imagen": "https://scontent.flpb1-1.fna.fbcdn.net/v/t39.30808-6/579621246_122102972697105555_1748599608123542550_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tAqnlDbmQrgQ7kNvwHom7_K&_nc_oc=Adk3wdAobEzZ65S3GPWY9r6aXtap0GImoHcYlAOPfZRx-F7xvRvJ_hTiLJEmk8rqwr-HKm94kQPsUKMSzyxexRPn&_nc_zt=23&_nc_ht=scontent.flpb1-1.fna&_nc_gid=dTO49NfkKLsTjOzXjnQANw&oh=00_AfgB_HUN0BMgMypJ801HakXVf193JLH5qj_yavfLAuPFsQ&oe=69296A12",
+    "descripcion": "Presentacion de danzas en el aniversario de Caripuyo por parte de los estudiantes de la comunidad",
+    "fecha": "2025-11-10"
+  },
+
+  {
+    "id": 4,
+    "titulo": "Aniversario de Caripuyo",
+    "categoria": "celebraciones",
+    "imagen": "https://scontent.flpb1-1.fna.fbcdn.net/v/t39.30808-6/578493845_122102609661105555_6963772474141230006_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=X0aUCz_8eLQQ7kNvwFzPevq&_nc_oc=AdksbzNc9RjlEafDhedRzEm9SuAPkWG5N03nsQ6dzT474-1ZrfNuY8SVbhNRiQeeTNWt_Kp-31C224bn6N_AMTke&_nc_zt=23&_nc_ht=scontent.flpb1-1.fna&_nc_gid=U93WOKYTYA2PoqulZWuSFw&oh=00_Afg2S-SvCXpKpd_6zeFDcV2-4pN2Lsvwg9TwnSCyfCUmhQ&oe=69296785",
+    "descripcion": "Comunidad Chaicuriri presentes en el aniversario de Caripuyo",
+    "fecha": "2025-11-09"
   },
   {
     "id": 3,
@@ -24,19 +33,19 @@
     "fecha": "2024-05-20"
   },
   {
-    "id": 4,
-    "titulo": "Aniversario de Caripuyo",
-    "categoria": "celebraciones",
-    "imagen": "https://scontent.flpb1-1.fna.fbcdn.net/v/t39.30808-6/578493845_122102609661105555_6963772474141230006_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=BOY25O2zPEUQ7kNvwGb4DZK&_nc_oc=Adl8uaLuVejK3M891JjxJTIwYrSedabAApFzCQIuipsLcbK9mNcxEXDLOCdJbCmWw93PNMPdzH5Dgbob9_umT2b8&_nc_zt=23&_nc_ht=scontent.flpb1-1.fna&_nc_gid=wPy7xKKnlApfUfCGuAkbmw&oh=00_AfifCrF40yuRKPB8rS2h-fEWNhhUKchFpviL96IMw1AkxQ&oe=69184405",
-    "descripcion": "Comunidad Chaicuriri presentes en el aniversario de Caripuyo",
-    "fecha": "2025-11-09"
+    "id": 2,
+    "titulo": "Laguna de Chaicuriri",
+    "categoria": "paisajes",
+    "imagen": "/images/gallery/lago.jpg",
+    "descripcion": "Vista panorámica de la laguna de Chaicuriri, un lugar de gran importancia cultural para nuestra comunidad.",
+    "fecha": "2024-04-15"
   },
   {
-    "id": 5,
-    "titulo": "Aniversario de Caripuyo",
+    "id": 1,
+    "titulo": "Camelidos de Chaicuriri",
     "categoria": "celebraciones",
-    "imagen": "https://scontent.flpb1-1.fna.fbcdn.net/v/t39.30808-6/579583259_122102972943105555_5500165859341469976_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GrkR6GzzQYUQ7kNvwGzRPXq&_nc_oc=AdmI9cm4g_GBJ7JAvJ6T4Ako193ssZcb7P_u0oHzcIES73FBjyPJR5NgYKOXBjmUZRGOTEZqNm7jOlFQUFXKNqWZ&_nc_zt=23&_nc_ht=scontent.flpb1-1.fna&_nc_gid=bSVHxxPdC9Xr4yqKKP7rpw&oh=00_AfiCxDRps9OqMkjqm2uafx7IpDpPyCqzcU6DnD4L5swUKg&oe=6918296E",
-    "descripcion": "Presentacion de danzas en el aniversario de Caripuyo por parte de los estudiantes de la comunidad",
-    "fecha": "2025-11-10"
+    "imagen": "/images/gallery/camelidos.jpg",
+    "descripcion": "Llamas cargando alimentos durante la cosecha de papa",
+    "fecha": "2024-06-29"
   }
 ]
